@@ -3,5 +3,7 @@
 
 Над приложением работают:
 
-Дубовский А.А. // AndreyMAI-github
-Синицин С.М. // Sinitsin777
+// Дубовский А.А. -- AndreyMAI-github //
+// Хабарова О.А. -- OlgzBooM-github //
+// Синицин С.М. -- Sinitsin777 //
+
