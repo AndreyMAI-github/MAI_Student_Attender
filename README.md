@@ -3,5 +3,5 @@
 
 Над приложением работают:
 
-Дубовский А.А. // AndreyMAI-github
-Хабарова О.А. // OlgzBooM-github
+// Дубовский А.А. -- AndreyMAI-github //
+// Хабарова О.А. -- OlgzBooM-github //
