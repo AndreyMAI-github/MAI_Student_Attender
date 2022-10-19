@@ -4,15 +4,32 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button btnCalendar;
     private final String tag = "uWu";
+
+    private View.OnClickListener btnHandler = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            (Toast.makeText(getApplicationContext(),"btnCalendarClicked", Toast.LENGTH_LONG)).show();
+            Log.i(tag, "Button Clicked");
+        }
+    };
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(tag, "Created");
+
+        btnCalendar = findViewById(R.id.bCalendar);
+        btnCalendar.setOnClickListener(btnHandler);
     }
 
     @Override
@@ -50,5 +67,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(tag, "Destroyed");
     }
+
 
 }
