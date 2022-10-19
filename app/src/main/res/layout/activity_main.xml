@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bCalendar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -17,13 +17,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabsBottom"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabMain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Monday"
@@ -31,26 +33,28 @@
             tools:layout_editor_absoluteY="664dp" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tuesday" />
+            android:text="Group" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabStudents"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday"
+            android:text="Students"
             tools:layout_editor_absoluteX="274dp"
             tools:layout_editor_absoluteY="674dp" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabItem"
+            android:id="@+id/tabSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tab5" />
+            android:text="Settings" />
     </com.google.android.material.tabs.TabLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textDay"
         android:layout_width="178dp"
         android:layout_height="47dp"
         android:layout_marginTop="16dp"
@@ -60,7 +64,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textDate"
         android:layout_width="54dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -73,10 +77,10 @@
         android:layout_width="410dp"
         android:layout_height="607dp"
         android:layout_marginTop="76dp"
-        android:layout_marginEnd="1dp"
         android:layout_marginBottom="48dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
