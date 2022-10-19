@@ -16,21 +16,21 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/date"
+            android:id="@+id/twActMainDate"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/dayoftheweek"
+            android:id="@+id/twActMainWeekday"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="TextView" />
 
         <Button
-            android:id="@+id/calendar"
+            android:id="@+id/bActMainCalendar"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -65,28 +65,28 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/bMainActHome"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="1" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bActMainGroups"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="2" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bActMainDiscipline"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="3" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/bActMainOther"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
