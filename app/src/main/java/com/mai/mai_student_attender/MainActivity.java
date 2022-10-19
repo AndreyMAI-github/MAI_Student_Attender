@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d(tag, "Created");
 
-        btnCalendar = findViewById(R.id.bCalendar);
+        btnCalendar = findViewById(R.id.bActMainCalendar);
         btnCalendar.setOnClickListener(btnHandler);
     }
 
