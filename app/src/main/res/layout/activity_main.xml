@@ -6,81 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/bCalendar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="Button"
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabsBottom"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dayoftheweek"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top">
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabMain"
+        <Button
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Monday"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="664dp" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1" />
 
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabGroup"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Group" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2" />
 
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabStudents"
+        <Button
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Students"
-            tools:layout_editor_absoluteX="274dp"
-            tools:layout_editor_absoluteY="674dp" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3" />
 
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabSettings"
+        <Button
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Settings" />
-    </com.google.android.material.tabs.TabLayout>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4" />
 
-    <TextView
-        android:id="@+id/textDay"
-        android:layout_width="178dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="134dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textDate"
-        android:layout_width="54dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:layout_width="410dp"
-        android:layout_height="607dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginBottom="48dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
