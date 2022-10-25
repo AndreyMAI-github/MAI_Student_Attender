@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mai.mai_student_attender.app-mergeDebugResources-39:/values-et/values-et.xml",
+            "outputFile": "com.mai.mai_student_attender.app-mergeDebugResources-41:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\1657eaacfdf73cb5b94d8778151083b3\\transformed\\material-1.6.1\\res\\values-et\\values-et.xml",
