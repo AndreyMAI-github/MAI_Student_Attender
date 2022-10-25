@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_student_attend.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_student_attend.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_discipline_list.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_discipline_list.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_group_editor.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_group_editor.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_dicipline_day_handler.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_dicipline_day_handler.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_groups_attend.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_groups_attend.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_dicipline_edit.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_dicipline_edit.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-40:/layout/activity_group_list.xml",
+        "source": "com.mai.mai_student_attender.app-main-43:/layout/activity_group_list.xml"
+    }
+]
