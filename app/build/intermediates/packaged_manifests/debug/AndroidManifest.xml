@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
             android:name="com.mai.mai_student_attender.PanelActivity"
@@ -43,14 +44,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.mai.mai_student_attender.DiciplineDayHandler"
+            android:name="com.mai.mai_student_attender.DisciplineDayHandler"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.mai.mai_student_attender.DiciplineEdit"
+            android:name="com.mai.mai_student_attender.DisciplineEdit"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

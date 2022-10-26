@@ -2518,6 +2518,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_settings_black_24dp
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2682,6 +2683,8 @@ id button_Group2
 id button_Group3
 id button_Group4
 id button_add_Groups
+id button_add_students
+id button_back_to_groups
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2715,6 +2718,9 @@ id constraint
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
+id constraintLayout5
+id constraintLayout6
 id container
 id content
 id contentPanel
@@ -3037,6 +3043,7 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textNumber_of_group
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3048,6 +3055,10 @@ id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
 id text_settings
+id text_student1
+id text_student2
+id text_student3
+id text_student4
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3189,8 +3200,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_dicipline_day_handler
-layout activity_dicipline_edit
+layout activity_discipline_day_handler
+layout activity_discipline_edit
 layout activity_discipline_list
 layout activity_group_editor
 layout activity_group_list

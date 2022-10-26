@@ -6,197 +6,198 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
+8-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
+9-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:5:5-85:19
+11-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:5:5-85:19
 12        android:allowBackup="true"
-12-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\Vladimir\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:7:9-65
+14-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:8:9-54
+17-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:8:9-54
 18        android:icon="@mipmap/ic_launcher"
-18-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:9:9-43
+18-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:9:9-43
 19        android:label="@string/app_name"
-19-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:10:9-41
+19-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:10:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:11:9-54
+20-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
-21-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:12:9-35
-22        android:theme="@style/Theme.MyApplication" >
-22-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:13:9-51
-23        <activity
-23-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:15:9-22:20
-24            android:name="com.mai.mai_student_attender.PanelActivity"
-24-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:16:13-42
-25            android:exported="false"
-25-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:17:13-37
-26            android:label="@string/title_activity_panel" >
-26-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:18:13-57
-27            <meta-data
-27-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-28                android:name="android.app.lib_name"
-28-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-29                android:value="" />
-29-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-30        </activity>
-31        <activity
-31-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:23:9-29:20
-32            android:name="com.mai.mai_student_attender.GroupEditor"
-32-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:24:13-40
-33            android:exported="false" >
-33-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:25:13-37
-34            <meta-data
-34-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-35                android:name="android.app.lib_name"
-35-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-36                android:value="" />
-36-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-37        </activity>
-38        <activity
-38-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:30:9-36:20
-39            android:name="com.mai.mai_student_attender.GroupList"
-39-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:31:13-38
-40            android:exported="false" >
-40-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:32:13-37
-41            <meta-data
-41-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-42                android:name="android.app.lib_name"
-42-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-43                android:value="" />
-43-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-44        </activity>
-45        <activity
-45-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:37:9-43:20
-46            android:name="com.mai.mai_student_attender.DiciplineDayHandler"
-46-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:38:13-48
-47            android:exported="false" >
-47-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:39:13-37
-48            <meta-data
-48-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-49                android:name="android.app.lib_name"
-49-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-50                android:value="" />
-50-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-51        </activity>
-52        <activity
-52-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:44:9-50:20
-53            android:name="com.mai.mai_student_attender.DiciplineEdit"
-53-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:45:13-42
-54            android:exported="false" >
-54-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:46:13-37
-55            <meta-data
-55-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-56                android:name="android.app.lib_name"
-56-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-57                android:value="" />
-57-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-58        </activity>
-59        <activity
-59-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:51:9-57:20
-60            android:name="com.mai.mai_student_attender.DisciplineList"
-60-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:52:13-43
-61            android:exported="false" >
-61-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:53:13-37
-62            <meta-data
-62-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-63                android:name="android.app.lib_name"
-63-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-64                android:value="" />
-64-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-65        </activity>
-66        <activity
-66-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:58:9-64:20
-67            android:name="com.mai.mai_student_attender.StudentAttend"
-67-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:59:13-42
-68            android:exported="false" >
-68-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:60:13-37
-69            <meta-data
-69-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-70                android:name="android.app.lib_name"
-70-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-71                android:value="" />
-71-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-72        </activity>
-73        <activity
-73-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:65:9-71:20
-74            android:name="com.mai.mai_student_attender.DiscGroupAttend"
-74-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:66:13-44
-75            android:exported="false" >
-75-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:67:13-37
-76            <meta-data
-76-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-77                android:name="android.app.lib_name"
-77-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-78                android:value="" />
-78-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-79        </activity>
-80        <activity
-80-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:72:9-84:20
-81            android:name="com.mai.mai_student_attender.MainActivity"
-81-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:73:13-41
-82            android:exported="true" >
-82-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:74:13-36
-83            <intent-filter>
-83-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:75:13-79:29
-84                <action android:name="android.intent.action.MAIN" />
-84-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:76:17-69
-84-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:76:25-66
-85
-86                <category android:name="android.intent.category.LAUNCHER" />
-86-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:78:17-77
-86-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:78:27-74
-87            </intent-filter>
-88
-89            <meta-data
-89-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
-90                android:name="android.app.lib_name"
-90-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
-91                android:value="" />
-91-->D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
-92        </activity>
-93
-94        <provider
-94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-95            android:name="androidx.startup.InitializationProvider"
-95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-96            android:authorities="com.mai.mai_student_attender.androidx-startup"
-96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-97            android:exported="false" >
-97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-98            <meta-data
-98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-100                android:value="androidx.startup" />
-100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-101            <meta-data
-101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-103                android:value="androidx.startup" />
-103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-104        </provider>
-105
-106        <uses-library
-106-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-107            android:name="androidx.window.extensions"
-107-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-108            android:required="false" />
-108-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-109        <uses-library
-109-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-110            android:name="androidx.window.sidecar"
-110-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-111            android:required="false" />
-111-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-112    </application>
-113
-114</manifest>
+21-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.MyApplication" >
+23-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:13:9-51
+24        <activity
+24-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:15:9-22:20
+25            android:name="com.mai.mai_student_attender.PanelActivity"
+25-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:16:13-42
+26            android:exported="false"
+26-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:17:13-37
+27            android:label="@string/title_activity_panel" >
+27-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:18:13-57
+28            <meta-data
+28-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+29                android:name="android.app.lib_name"
+29-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+30                android:value="" />
+30-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+31        </activity>
+32        <activity
+32-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:23:9-29:20
+33            android:name="com.mai.mai_student_attender.GroupEditor"
+33-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:24:13-40
+34            android:exported="false" >
+34-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:25:13-37
+35            <meta-data
+35-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+36                android:name="android.app.lib_name"
+36-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+37                android:value="" />
+37-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+38        </activity>
+39        <activity
+39-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:30:9-36:20
+40            android:name="com.mai.mai_student_attender.GroupList"
+40-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:31:13-38
+41            android:exported="false" >
+41-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:32:13-37
+42            <meta-data
+42-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+43                android:name="android.app.lib_name"
+43-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+44                android:value="" />
+44-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+45        </activity>
+46        <activity
+46-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:37:9-43:20
+47            android:name="com.mai.mai_student_attender.DisciplineDayHandler"
+47-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:38:13-49
+48            android:exported="false" >
+48-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:39:13-37
+49            <meta-data
+49-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+50                android:name="android.app.lib_name"
+50-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+51                android:value="" />
+51-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+52        </activity>
+53        <activity
+53-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:44:9-50:20
+54            android:name="com.mai.mai_student_attender.DisciplineEdit"
+54-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:45:13-43
+55            android:exported="false" >
+55-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:46:13-37
+56            <meta-data
+56-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+57                android:name="android.app.lib_name"
+57-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+58                android:value="" />
+58-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+59        </activity>
+60        <activity
+60-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:51:9-57:20
+61            android:name="com.mai.mai_student_attender.DisciplineList"
+61-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:52:13-43
+62            android:exported="false" >
+62-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:53:13-37
+63            <meta-data
+63-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+64                android:name="android.app.lib_name"
+64-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+65                android:value="" />
+65-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+66        </activity>
+67        <activity
+67-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:58:9-64:20
+68            android:name="com.mai.mai_student_attender.StudentAttend"
+68-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:59:13-42
+69            android:exported="false" >
+69-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:60:13-37
+70            <meta-data
+70-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+71                android:name="android.app.lib_name"
+71-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+72                android:value="" />
+72-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+73        </activity>
+74        <activity
+74-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:65:9-71:20
+75            android:name="com.mai.mai_student_attender.DiscGroupAttend"
+75-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:66:13-44
+76            android:exported="false" >
+76-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:67:13-37
+77            <meta-data
+77-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+78                android:name="android.app.lib_name"
+78-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+79                android:value="" />
+79-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+80        </activity>
+81        <activity
+81-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:72:9-84:20
+82            android:name="com.mai.mai_student_attender.MainActivity"
+82-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:73:13-41
+83            android:exported="true" >
+83-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:74:13-36
+84            <intent-filter>
+84-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:75:13-79:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:76:17-69
+85-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:76:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:78:17-77
+87-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:78:27-74
+88            </intent-filter>
+89
+90            <meta-data
+90-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:19:13-21:36
+91                android:name="android.app.lib_name"
+91-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:20:17-52
+92                android:value="" />
+92-->C:\Users\Vladimir\Desktop\java\MAI_Student_Attender\app\src\main\AndroidManifest.xml:21:17-33
+93        </activity>
+94
+95        <provider
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+97            android:authorities="com.mai.mai_student_attender.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vladimir\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vladimir\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vladimir\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vladimir\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+105        </provider>
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0] C:\Users\Vladimir\.gradle\caches\transforms-3\5efc42ad06fee0a4f57c0275125b73f8\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+113    </application>
+114
+115</manifest>

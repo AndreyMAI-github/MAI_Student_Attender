@@ -3,7 +3,6 @@ package com.mai.mai_student_attender;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -16,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener btnHandler = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Logger.d("Button btnCalendar clicked");
             (Toast.makeText(getApplicationContext(),"btnCalendarClicked", Toast.LENGTH_LONG)).show();
-            Log.i(tag, "Button Clicked");
         }
     };
 
@@ -25,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Log.d(tag, "Created");
+        Logger.d("MainActivity Created");
 
+        setContentView(R.layout.activity_main);
         btnCalendar = findViewById(R.id.bActMainCalendar);
         btnCalendar.setOnClickListener(btnHandler);
     }
@@ -35,39 +34,38 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i(tag, "Started");
+        Logger.d("MainActivity Started");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i(tag, "Resumed");
+        Logger.d("MainActivity Resumed");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(tag, "Paused");
+        Logger.d("MainActivity Paused");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(tag, "Stopped");
+        Logger.d("MainActivity Stopped");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i(tag, "Restarted");
+        Logger.d("MainActivity Restarted");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i(tag, "Destroyed");
+        Logger.d("MainActivity Destroyed");
     }
-
 
 }
 

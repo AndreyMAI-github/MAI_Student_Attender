@@ -18,6 +18,7 @@ public class PanelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Logger.d("PanelActivity Created");
 
         binding = ActivityPanelBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
