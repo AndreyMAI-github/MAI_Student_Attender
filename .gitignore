@@ -2,6 +2,6 @@
 /shelf/
 /workspace.xml
 # Added ignored files
-../.gradle/
-../app/build/
-../local.properties
+/.gradle/
+/app/build/
+/local.properties
