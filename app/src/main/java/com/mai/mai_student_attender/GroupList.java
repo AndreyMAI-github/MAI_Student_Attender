@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 public class GroupList extends AppCompatActivity {
 
+
+
+    private void setHederTextName(String str){
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
