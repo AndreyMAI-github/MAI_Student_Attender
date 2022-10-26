@@ -4,3 +4,4 @@
 # Added ignored files
 ../.gradle/
 ../app/build/
+../local.properties
