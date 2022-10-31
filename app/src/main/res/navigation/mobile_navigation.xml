@@ -21,26 +21,18 @@
         android:id="@+id/navigation_discipline"
         android:name="com.mai.mai_student_attender.panel_elements.discipline.DisciplineFragment"
         android:label="@string/title_discipline"
-        tools:layout="@layout/fragment_discipline" >
-        <action
-            android:id="@+id/action_navigation_discipline_to_disciplineList"
-            app:destination="@id/disciplineList" />
-    </fragment>
+        tools:layout="@layout/fragment_discipline" />
 
     <fragment
         android:id="@+id/navigation_settings"
         android:name="com.mai.mai_student_attender.panel_elements.settings.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
-    <activity
-        android:id="@+id/disciplineList"
-        android:name="com.mai.mai_student_attender.DisciplineList"
-        android:label="activity_discipline_list"
-        tools:layout="@layout/activity_discipline_list" />
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.mai.mai_student_attender.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" />
-    <!--(ПРОБЛЕМА label)-->
+
+    <fragment
+        android:id="@+id/panel_nav"
+        android:name="com.mai.mai_student_attender.panel_elements.settings.SettingsFragment"
+        android:label="Penal"
+        tools:layout="@layout/activity_panel" />
+
 </navigation>

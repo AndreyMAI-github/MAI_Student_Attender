@@ -2569,7 +2569,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DisciplineList
-id Discipline_nav
 id FUNCTION
 id Group_nav
 id Hat
@@ -2641,7 +2640,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_navigation_discipline_to_disciplineList
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2756,7 +2754,6 @@ id disableHome
 id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
-id disciplineList
 id disjoint
 id dragAnticlockwise
 id dragClockwise
@@ -2843,7 +2840,6 @@ id listMode
 id list_item
 id locale
 id ltr
-id mainActivity
 id masked
 id match_constraint
 id match_parent
@@ -2907,7 +2903,6 @@ id name_Group2
 id name_Group3
 id name_Group4
 id nav_controller_view_tag
-id nav_host_fragment_activity_panel
 id nav_host_fragment_container
 id nav_view
 id navigation_bar_item_active_indicator_view
@@ -2939,6 +2934,8 @@ id outline
 id outward
 id overshoot
 id packed
+id panel_nav
+id panel_out
 id parallax
 id parent
 id parentPanel
@@ -3054,9 +3051,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id text_discipline
-id text_groups
-id text_home
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3208,11 +3202,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dicipline_day_handler
 layout activity_dicipline_edit
-layout activity_discipline_list
 layout activity_group_editor
-layout activity_group_list
 layout activity_groups_attend
-layout activity_main
 layout activity_panel
 layout activity_student_attend
 layout custom_dialog

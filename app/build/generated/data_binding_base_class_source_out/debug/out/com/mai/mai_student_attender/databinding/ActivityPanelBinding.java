@@ -4,6 +4,7 @@ package com.mai.mai_student_attender.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,16 +21,21 @@ public final class ActivityPanelBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout container;
-
-  @NonNull
   public final BottomNavigationView navView;
 
+  @NonNull
+  public final ConstraintLayout panelNav;
+
+  @NonNull
+  public final FrameLayout panelOut;
+
   private ActivityPanelBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout container, @NonNull BottomNavigationView navView) {
+      @NonNull BottomNavigationView navView, @NonNull ConstraintLayout panelNav,
+      @NonNull FrameLayout panelOut) {
     this.rootView = rootView;
-    this.container = container;
     this.navView = navView;
+    this.panelNav = panelNav;
+    this.panelOut = panelOut;
   }
 
   @Override
@@ -59,15 +65,21 @@ public final class ActivityPanelBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout container = (ConstraintLayout) rootView;
-
       id = R.id.nav_view;
       BottomNavigationView navView = ViewBindings.findChildViewById(rootView, id);
       if (navView == null) {
         break missingId;
       }
 
-      return new ActivityPanelBinding((ConstraintLayout) rootView, container, navView);
+      ConstraintLayout panelNav = (ConstraintLayout) rootView;
+
+      id = R.id.panel_out;
+      FrameLayout panelOut = ViewBindings.findChildViewById(rootView, id);
+      if (panelOut == null) {
+        break missingId;
+      }
+
+      return new ActivityPanelBinding((ConstraintLayout) rootView, navView, panelNav, panelOut);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

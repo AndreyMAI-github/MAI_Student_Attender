@@ -4,6 +4,8 @@ package com.mai.mai_student_attender.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +22,60 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textHome;
+  public final ConstraintLayout HomeNav;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textHome) {
+  @NonNull
+  public final Button bActMainCalendar;
+
+  @NonNull
+  public final Button bActMainDiscipline;
+
+  @NonNull
+  public final Button bActMainGroups;
+
+  @NonNull
+  public final Button bActMainOther;
+
+  @NonNull
+  public final Button bMainActHome;
+
+  @NonNull
+  public final LinearLayout bottom;
+
+  @NonNull
+  public final Button button26;
+
+  @NonNull
+  public final LinearLayout middle;
+
+  @NonNull
+  public final LinearLayout top;
+
+  @NonNull
+  public final TextView twActMainDate;
+
+  @NonNull
+  public final TextView twActMainWeekday;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout HomeNav,
+      @NonNull Button bActMainCalendar, @NonNull Button bActMainDiscipline,
+      @NonNull Button bActMainGroups, @NonNull Button bActMainOther, @NonNull Button bMainActHome,
+      @NonNull LinearLayout bottom, @NonNull Button button26, @NonNull LinearLayout middle,
+      @NonNull LinearLayout top, @NonNull TextView twActMainDate,
+      @NonNull TextView twActMainWeekday) {
     this.rootView = rootView;
-    this.textHome = textHome;
+    this.HomeNav = HomeNav;
+    this.bActMainCalendar = bActMainCalendar;
+    this.bActMainDiscipline = bActMainDiscipline;
+    this.bActMainGroups = bActMainGroups;
+    this.bActMainOther = bActMainOther;
+    this.bMainActHome = bMainActHome;
+    this.bottom = bottom;
+    this.button26 = button26;
+    this.middle = middle;
+    this.top = top;
+    this.twActMainDate = twActMainDate;
+    this.twActMainWeekday = twActMainWeekday;
   }
 
   @Override
@@ -54,13 +105,77 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_home;
-      TextView textHome = ViewBindings.findChildViewById(rootView, id);
-      if (textHome == null) {
+      ConstraintLayout HomeNav = (ConstraintLayout) rootView;
+
+      id = R.id.bActMainCalendar;
+      Button bActMainCalendar = ViewBindings.findChildViewById(rootView, id);
+      if (bActMainCalendar == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, textHome);
+      id = R.id.bActMainDiscipline;
+      Button bActMainDiscipline = ViewBindings.findChildViewById(rootView, id);
+      if (bActMainDiscipline == null) {
+        break missingId;
+      }
+
+      id = R.id.bActMainGroups;
+      Button bActMainGroups = ViewBindings.findChildViewById(rootView, id);
+      if (bActMainGroups == null) {
+        break missingId;
+      }
+
+      id = R.id.bActMainOther;
+      Button bActMainOther = ViewBindings.findChildViewById(rootView, id);
+      if (bActMainOther == null) {
+        break missingId;
+      }
+
+      id = R.id.bMainActHome;
+      Button bMainActHome = ViewBindings.findChildViewById(rootView, id);
+      if (bMainActHome == null) {
+        break missingId;
+      }
+
+      id = R.id.bottom;
+      LinearLayout bottom = ViewBindings.findChildViewById(rootView, id);
+      if (bottom == null) {
+        break missingId;
+      }
+
+      id = R.id.button26;
+      Button button26 = ViewBindings.findChildViewById(rootView, id);
+      if (button26 == null) {
+        break missingId;
+      }
+
+      id = R.id.middle;
+      LinearLayout middle = ViewBindings.findChildViewById(rootView, id);
+      if (middle == null) {
+        break missingId;
+      }
+
+      id = R.id.top;
+      LinearLayout top = ViewBindings.findChildViewById(rootView, id);
+      if (top == null) {
+        break missingId;
+      }
+
+      id = R.id.twActMainDate;
+      TextView twActMainDate = ViewBindings.findChildViewById(rootView, id);
+      if (twActMainDate == null) {
+        break missingId;
+      }
+
+      id = R.id.twActMainWeekday;
+      TextView twActMainWeekday = ViewBindings.findChildViewById(rootView, id);
+      if (twActMainWeekday == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, HomeNav, bActMainCalendar,
+          bActMainDiscipline, bActMainGroups, bActMainOther, bMainActHome, bottom, button26, middle,
+          top, twActMainDate, twActMainWeekday);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

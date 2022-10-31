@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
+ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\user\.gradle\caches\transforms-3\148010573bd59878e8bacad5a530b55b\transformed\viewbinding-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.2] C:\Users\user\.gradle\caches\transforms-3\90d6b3f19cdef85100e34c5cb0facc09\transformed\navigation-ui-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
@@ -58,27 +58,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\e73c86b3573ad4a7ff179a0b22b3e639\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\e49e4dff70250dbb03e409465432a16f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\313ea14ffe4d03080b06e74a9195c166\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:5:5-90:19
+ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:5:5-77:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\28075e3b5fe6386b541742e3f2e4f8fe\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -156,9 +156,19 @@ ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:44:9-50:
 activity#com.mai.mai_student_attender.DisciplineList
 ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:51:9-62:20
 	android:exported
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:53:13-36
 	android:name
 		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:52:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:57:27-74
 activity#com.mai.mai_student_attender.StudentAttend
 ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:63:9-69:20
 	android:exported
@@ -171,22 +181,6 @@ ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:70:9-76:
 		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:72:13-37
 	android:name
 		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:71:13-44
-activity#com.mai.mai_student_attender.MainActivity
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:77:9-89:20
-	android:exported
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:79:13-36
-	android:name
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:78:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:80:13-84:29
-action#android.intent.action.MAIN
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:81:17-69
-	android:name
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:81:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:83:17-77
-	android:name
-		ADDED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml:83:27-74
 uses-sdk
 INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Git\MAI_Student_Attender\app\src\main\AndroidManifest.xml

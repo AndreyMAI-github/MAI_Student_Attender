@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.mai.mai_student_attender.R;
 import com.mai.mai_student_attender.databinding.FragmentDisciplineBinding;
 
 public class DisciplineFragment extends Fragment {
@@ -18,20 +19,9 @@ public class DisciplineFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        DisciplineViewModel disciplineViewModel =
-                new ViewModelProvider(this).get(DisciplineViewModel.class);
+        return
+                inflater.inflate(R.layout.fragment_discipline,null);
 
-        binding = FragmentDisciplineBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        final TextView textView = binding.textDiscipline;
-        disciplineViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
-    }
 }
