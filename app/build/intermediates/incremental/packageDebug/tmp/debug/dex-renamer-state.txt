@@ -1,14 +1,14 @@
-#Wed Oct 26 00:28:27 MSK 2022
-path.4=12/classes.dex
-path.3=11/classes.dex
-path.2=6/classes.dex
+#Mon Oct 31 22:16:09 MSK 2022
+path.4=6/classes.dex
+path.3=12/classes.dex
+path.2=11/classes.dex
 path.1=0/classes.dex
 path.6=8/classes.dex
 path.5=7/classes.dex
 path.0=classes.dex
-base.4=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.2=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.4=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.3=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.1=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=D\:\\Git\\MAI_Student_Attender\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex

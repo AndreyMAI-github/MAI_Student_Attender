@@ -22,6 +22,9 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout HomeNav;
+
+  @NonNull
   public final Button bActMainCalendar;
 
   @NonNull
@@ -54,12 +57,14 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView twActMainWeekday;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button bActMainCalendar,
-      @NonNull Button bActMainDiscipline, @NonNull Button bActMainGroups,
-      @NonNull Button bActMainOther, @NonNull Button bMainActHome, @NonNull LinearLayout bottom,
-      @NonNull Button button26, @NonNull LinearLayout middle, @NonNull LinearLayout top,
-      @NonNull TextView twActMainDate, @NonNull TextView twActMainWeekday) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout HomeNav,
+      @NonNull Button bActMainCalendar, @NonNull Button bActMainDiscipline,
+      @NonNull Button bActMainGroups, @NonNull Button bActMainOther, @NonNull Button bMainActHome,
+      @NonNull LinearLayout bottom, @NonNull Button button26, @NonNull LinearLayout middle,
+      @NonNull LinearLayout top, @NonNull TextView twActMainDate,
+      @NonNull TextView twActMainWeekday) {
     this.rootView = rootView;
+    this.HomeNav = HomeNav;
     this.bActMainCalendar = bActMainCalendar;
     this.bActMainDiscipline = bActMainDiscipline;
     this.bActMainGroups = bActMainGroups;
@@ -100,6 +105,8 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      ConstraintLayout HomeNav = (ConstraintLayout) rootView;
+
       id = R.id.bActMainCalendar;
       Button bActMainCalendar = ViewBindings.findChildViewById(rootView, id);
       if (bActMainCalendar == null) {
@@ -166,7 +173,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, bActMainCalendar,
+      return new ActivityMainBinding((ConstraintLayout) rootView, HomeNav, bActMainCalendar,
           bActMainDiscipline, bActMainGroups, bActMainOther, bMainActHome, bottom, button26, middle,
           top, twActMainDate, twActMainWeekday);
     }

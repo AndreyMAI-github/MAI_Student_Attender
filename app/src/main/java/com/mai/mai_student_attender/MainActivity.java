@@ -1,12 +1,20 @@
 package com.mai.mai_student_attender;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.mai.mai_student_attender.databinding.ActivityPanelBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         btnCalendar = findViewById(R.id.bActMainCalendar);
         btnCalendar.setOnClickListener(btnHandler);
+
+
+        /*activity_main*/
     }
 
     @Override

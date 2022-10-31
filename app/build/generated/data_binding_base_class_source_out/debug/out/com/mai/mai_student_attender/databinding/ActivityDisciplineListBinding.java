@@ -27,6 +27,9 @@ public final class ActivityDisciplineListBinding implements ViewBinding {
   public final EditText DisciplineList;
 
   @NonNull
+  public final ConstraintLayout DisciplineNav;
+
+  @NonNull
   public final TabItem Hat;
 
   @NonNull
@@ -51,12 +54,13 @@ public final class ActivityDisciplineListBinding implements ViewBinding {
   public final ConstraintLayout constraintLayout;
 
   private ActivityDisciplineListBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText DisciplineList, @NonNull TabItem Hat, @NonNull TabItem Home,
-      @NonNull TabItem People, @NonNull LinearLayout Spisok, @NonNull TabItem String,
-      @NonNull TabLayout Tablo, @NonNull Button button,
-      @NonNull ConstraintLayout constraintLayout) {
+      @NonNull EditText DisciplineList, @NonNull ConstraintLayout DisciplineNav,
+      @NonNull TabItem Hat, @NonNull TabItem Home, @NonNull TabItem People,
+      @NonNull LinearLayout Spisok, @NonNull TabItem String, @NonNull TabLayout Tablo,
+      @NonNull Button button, @NonNull ConstraintLayout constraintLayout) {
     this.rootView = rootView;
     this.DisciplineList = DisciplineList;
+    this.DisciplineNav = DisciplineNav;
     this.Hat = Hat;
     this.Home = Home;
     this.People = People;
@@ -99,6 +103,8 @@ public final class ActivityDisciplineListBinding implements ViewBinding {
       if (DisciplineList == null) {
         break missingId;
       }
+
+      ConstraintLayout DisciplineNav = (ConstraintLayout) rootView;
 
       id = R.id.Hat;
       TabItem Hat = ViewBindings.findChildViewById(rootView, id);
@@ -148,8 +154,8 @@ public final class ActivityDisciplineListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDisciplineListBinding((ConstraintLayout) rootView, DisciplineList, Hat,
-          Home, People, Spisok, String, Tablo, button, constraintLayout);
+      return new ActivityDisciplineListBinding((ConstraintLayout) rootView, DisciplineList,
+          DisciplineNav, Hat, Home, People, Spisok, String, Tablo, button, constraintLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

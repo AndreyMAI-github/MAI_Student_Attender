@@ -21,6 +21,9 @@ public final class ActivityGroupListBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout GroupNav;
+
+  @NonNull
   public final Button buttonAddGroups;
 
   @NonNull
@@ -60,13 +63,14 @@ public final class ActivityGroupListBinding implements ViewBinding {
   public final TextView yourGpours;
 
   private ActivityGroupListBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonAddGroups, @NonNull Button buttonGroup1, @NonNull Button buttonGroup2,
-      @NonNull Button buttonGroup3, @NonNull Button buttonGroup4,
-      @NonNull ConstraintLayout constraintLayout, @NonNull ConstraintLayout constraintLayout2,
-      @NonNull ConstraintLayout constraintLayout3, @NonNull TextView nameGroup1,
-      @NonNull TextView nameGroup2, @NonNull TextView nameGroup3, @NonNull TextView nameGroup4,
-      @NonNull TextView yourGpours) {
+      @NonNull ConstraintLayout GroupNav, @NonNull Button buttonAddGroups,
+      @NonNull Button buttonGroup1, @NonNull Button buttonGroup2, @NonNull Button buttonGroup3,
+      @NonNull Button buttonGroup4, @NonNull ConstraintLayout constraintLayout,
+      @NonNull ConstraintLayout constraintLayout2, @NonNull ConstraintLayout constraintLayout3,
+      @NonNull TextView nameGroup1, @NonNull TextView nameGroup2, @NonNull TextView nameGroup3,
+      @NonNull TextView nameGroup4, @NonNull TextView yourGpours) {
     this.rootView = rootView;
+    this.GroupNav = GroupNav;
     this.buttonAddGroups = buttonAddGroups;
     this.buttonGroup1 = buttonGroup1;
     this.buttonGroup2 = buttonGroup2;
@@ -109,6 +113,8 @@ public final class ActivityGroupListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      ConstraintLayout GroupNav = (ConstraintLayout) rootView;
+
       id = R.id.button_add_Groups;
       Button buttonAddGroups = ViewBindings.findChildViewById(rootView, id);
       if (buttonAddGroups == null) {
@@ -187,7 +193,7 @@ public final class ActivityGroupListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGroupListBinding((ConstraintLayout) rootView, buttonAddGroups,
+      return new ActivityGroupListBinding((ConstraintLayout) rootView, GroupNav, buttonAddGroups,
           buttonGroup1, buttonGroup2, buttonGroup3, buttonGroup4, constraintLayout,
           constraintLayout2, constraintLayout3, nameGroup1, nameGroup2, nameGroup3, nameGroup4,
           yourGpours);
