@@ -6,4 +6,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#66FF651E</color>
     <color name="grey_bg_overlay">#F0F0F0</color>
+    <color name="grey_txt">#676464</color>
 </resources>
