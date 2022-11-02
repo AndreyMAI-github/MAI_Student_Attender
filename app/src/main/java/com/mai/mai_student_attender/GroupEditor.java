@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 public class GroupEditor extends AppCompatActivity {
 
+    private void setHeaderTextName(String str){
+
+
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
