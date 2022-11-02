@@ -21,25 +21,25 @@ public class Logger{
         }
     }
 
-    public static void i(String tag, String message) {
+    public static void i(String message) {
         if(BuildConfig.BUILD_TYPE == "debug") {
             Log.i(getTag("i"), message);
         }
     }
 
-    public static void e(String tag, String message) {
+    public static void e(String message) {
         if(BuildConfig.BUILD_TYPE == "debug") {
             Log.e(getTag("e"), message);
         }
     }
 
-    public static void w(String tag, String message) {
+    public static void w(String message) {
         if(BuildConfig.BUILD_TYPE == "debug") {
             Log.w(getTag("e"), message);
         }
     }
 
-    public static void wtf(String tag, String message) {
+    public static void wtf(String message) {
         if(BuildConfig.BUILD_TYPE == "debug") {
             Log.wtf(getTag("wtf"), message);
         }
