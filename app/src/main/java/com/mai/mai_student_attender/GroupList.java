@@ -10,6 +10,8 @@ public class GroupList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Logger.d("GroupList Created");
 
-        setContentView(R.layout.activity_group_list);
+//        setContentView(R.layout.activity_group_list);
+        setContentView(R.layout.fragment_groups);
+
     }
 }
