@@ -21,8 +21,9 @@ public class GroupList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group_list);
+    }
 
-        String[] GroupListArray = {"М4О-306Б-20", "М4О-307Б-20"};
+ /*       String[] GroupListArray = {"М4О-306Б-20", "М4О-307Б-20"};
 
 
 
@@ -35,8 +36,6 @@ public class GroupList extends AppCompatActivity {
 
             // устанавливаем для списка адаптер
             ScrollGroupList.setAdapter(adapter);
-        }
-
-
+     */
 }
 
