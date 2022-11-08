@@ -16,6 +16,7 @@
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_group_attend">GroupAttendActivity</string>
+    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_panel">PanelActivity</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_discipline">Discipline</string>

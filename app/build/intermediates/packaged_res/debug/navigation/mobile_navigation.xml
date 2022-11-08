@@ -21,7 +21,11 @@
         android:id="@+id/navigation_discipline"
         android:name="com.mai.mai_student_attender.panel_elements.discipline.DisciplineFragment"
         android:label="@string/title_discipline"
-        tools:layout="@layout/fragment_discipline" />
+        tools:layout="@layout/fragment_discipline" >
+        <action
+            android:id="@+id/action_navigation_discipline_to_diciplineEdit2"
+            app:destination="@id/diciplineEdit" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_settings"
@@ -34,5 +38,10 @@
         android:name="com.mai.mai_student_attender.panel_elements.settings.SettingsFragment"
         android:label="Penal"
         tools:layout="@layout/activity_panel" />
+    <activity
+        android:id="@+id/diciplineEdit"
+        android:name="com.mai.mai_student_attender.DiciplineEdit"
+        android:label="activity_dicipline_edit"
+        tools:layout="@layout/activity_dicipline_edit" />
 
 </navigation>

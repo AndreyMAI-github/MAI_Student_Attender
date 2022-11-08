@@ -15,7 +15,7 @@
         <activity
             android:name=".PanelActivity"
             android:exported="true"
-            android:label="@string/title_activity_panel">
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,6 +74,15 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main">
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
         </activity>
     </application>
 

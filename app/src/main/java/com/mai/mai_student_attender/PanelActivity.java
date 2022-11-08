@@ -26,7 +26,7 @@ import com.mai.mai_student_attender.panel_elements.settings.SettingsFragment;
 
 public class PanelActivity extends AppCompatActivity {
 
-    private ActivityPanelBinding binding;
+    /*private ActivityPanelBinding binding;*/
 
     int currentState = 0;
 

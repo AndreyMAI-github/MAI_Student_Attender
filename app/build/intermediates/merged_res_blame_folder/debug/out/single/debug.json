@@ -4,12 +4,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\drawable_ic_groups_black_24dp.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\drawable\\ic_groups_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\drawable_ic_groups_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\drawable\\ic_groups_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\layout_activity_student_attend.xml.flat",
@@ -20,16 +20,16 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\layout\\activity_group_editor.xml"
     },
     {
+        "merged": "com.mai.mai_student_attender.app-merged_res-43:/navigation_mobile_navigation.xml.flat",
+        "source": "com.mai.mai_student_attender.app-main-45:/navigation/mobile_navigation.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\layout_fragment_settings.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\layout\\fragment_settings.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\layout_activity_panel.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\layout\\activity_panel.xml"
-    },
-    {
-        "merged": "com.mai.mai_student_attender.app-merged_res-43:/layout_fragment_discipline.xml.flat",
-        "source": "com.mai.mai_student_attender.app-main-45:/layout/fragment_discipline.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\layout_activity_discipline_list.xml.flat",
@@ -50,10 +50,6 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.mai.mai_student_attender.app-merged_res-43:/layout_activity_panel.xml.flat",
-        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_panel.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\com.mai.mai_student_attender.app-merged_res-43:\\layout_activity_groups_attend.xml.flat",

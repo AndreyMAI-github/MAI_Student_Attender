@@ -16,4 +16,6 @@
     <string name="title_settings">Settings</string>
     <string name="title_groups">Groups</string>
     <string name="title_discipline">Discipline</string>
+    <string name="title_activity_main">MainActivity</string>
+
 </resources>
