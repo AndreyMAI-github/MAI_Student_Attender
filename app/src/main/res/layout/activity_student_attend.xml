@@ -7,63 +7,26 @@
     tools:context=".StudentAttend">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/Niz"
         android:layout_width="409dp"
         android:layout_height="650dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+        app:layout_constraintTop_toBottomOf="@+id/top_box_panel_activity">
 
-        <LinearLayout
-            android:id="@+id/Krutilka"
-            android:layout_width="409dp"
-            android:layout_height="645dp"
-            android:orientation="vertical"
+        <ListView
+            android:id="@+id/student_attend"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/Konteiner_stud1"
-                android:layout_width="407dp"
-                android:layout_height="90dp">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="218dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="15dp"
-                    android:text="1 - Бабкин Х.Б."
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/Konteiner_stud2"
-                android:layout_width="407dp"
-                android:layout_height="90dp">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="218dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="15dp"
-                    android:text="2 - Бабкина Р.Б."
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
-
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout7"
+    //<androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_box_panel_activity"
         android:layout_width="412dp"
         android:layout_height="81dp"
         app:layout_constraintEnd_toEndOf="parent"
