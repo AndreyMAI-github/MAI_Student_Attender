@@ -2568,25 +2568,20 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id DisciplineList
 id FUNCTION
 id Group_nav
-id Hat
-id Home
 id Home_nav
+id LayoutDisList
 id META
 id NO_DEBUG
-id People
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Spisok
-id String
+id ScrollDisList
 id TOP_END
 id TOP_START
-id Tablo
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2665,6 +2660,7 @@ id bActMainCalendar
 id bActMainDiscipline
 id bActMainGroups
 id bActMainOther
+id bDisListAdd
 id bMainActHome
 id barrier
 id baseline
@@ -2677,7 +2673,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id button26
 id buttonPanel
 id button_Group1
@@ -2754,6 +2749,7 @@ id disableHome
 id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
+id disciplineList
 id disjoint
 id dragAnticlockwise
 id dragClockwise
@@ -2865,6 +2861,7 @@ id material_value_index
 id matrix
 id message
 id middle
+id middleDisList
 id mini
 id mobile_navigation
 id month_grid
@@ -3071,6 +3068,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id top
+id topDisList
 id topPanel
 id touch_outside
 id transitionToEnd
@@ -3083,6 +3081,8 @@ id transition_transform
 id triangle
 id twActMainDate
 id twActMainWeekday
+id twDisListPust
+id twDisListVP
 id unchecked
 id uniform
 id unlabeled
@@ -3200,8 +3200,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_dicipline_day_handler
-layout activity_dicipline_edit
+layout activity_discipline_day_handler
+layout activity_discipline_edit
 layout activity_group_editor
 layout activity_groups_attend
 layout activity_panel

@@ -2567,25 +2567,20 @@ int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
-int id DisciplineList 0x7f080004
 int id FUNCTION 0x7f080005
 int id Group_nav 0x7f080006
-int id Hat 0x7f080007
-int id Home 0x7f080008
 int id Home_nav 0x7f080009
+int id LayoutDisList 0x7f08021f
 int id META 0x7f08000a
 int id NO_DEBUG 0x7f08000b
-int id People 0x7f08000c
 int id SHIFT 0x7f08000d
 int id SHOW_ALL 0x7f08000e
 int id SHOW_PATH 0x7f08000f
 int id SHOW_PROGRESS 0x7f080010
 int id SYM 0x7f080011
-int id Spisok 0x7f080012
-int id String 0x7f080013
+int id ScrollDisList 0x7f080220
 int id TOP_END 0x7f080014
 int id TOP_START 0x7f080015
-int id Tablo 0x7f080016
 int id accelerate 0x7f080017
 int id accessibility_action_clickable_span 0x7f080018
 int id accessibility_custom_action_0 0x7f080019
@@ -2664,6 +2659,7 @@ int id bActMainCalendar 0x7f080061
 int id bActMainDiscipline 0x7f080062
 int id bActMainGroups 0x7f080063
 int id bActMainOther 0x7f080064
+int id bDisListAdd 0x7f080221
 int id bMainActHome 0x7f080065
 int id barrier 0x7f080066
 int id baseline 0x7f080067
@@ -2676,7 +2672,6 @@ int id bounce 0x7f08006d
 int id bounceBoth 0x7f08006e
 int id bounceEnd 0x7f08006f
 int id bounceStart 0x7f080070
-int id button 0x7f080071
 int id button26 0x7f080072
 int id buttonPanel 0x7f080073
 int id button_Group1 0x7f080074
@@ -2753,6 +2748,7 @@ int id disableHome 0x7f0800ba
 int id disableIntraAutoTransition 0x7f0800bb
 int id disablePostScroll 0x7f0800bc
 int id disableScroll 0x7f0800bd
+int id disciplineList 0x7f080223
 int id disjoint 0x7f0800be
 int id dragAnticlockwise 0x7f0800bf
 int id dragClockwise 0x7f0800c0
@@ -2864,6 +2860,7 @@ int id material_value_index 0x7f080129
 int id matrix 0x7f08012a
 int id message 0x7f08012b
 int id middle 0x7f08012c
+int id middleDisList 0x7f080224
 int id mini 0x7f08012d
 int id mobile_navigation 0x7f08012e
 int id month_grid 0x7f08012f
@@ -3070,6 +3067,7 @@ int id titleDividerNoCustom 0x7f0801f7
 int id title_template 0x7f0801f8
 int id toggle 0x7f0801f9
 int id top 0x7f0801fa
+int id topDisList 0x7f080225
 int id topPanel 0x7f0801fb
 int id touch_outside 0x7f0801fc
 int id transitionToEnd 0x7f0801fd
@@ -3082,6 +3080,8 @@ int id transition_transform 0x7f080203
 int id triangle 0x7f080204
 int id twActMainDate 0x7f080205
 int id twActMainWeekday 0x7f080206
+int id twDisListPust 0x7f080226
+int id twDisListVP 0x7f080227
 int id unchecked 0x7f080207
 int id uniform 0x7f080208
 int id unlabeled 0x7f080209
@@ -3199,8 +3199,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_dicipline_day_handler 0x7f0b001c
-int layout activity_dicipline_edit 0x7f0b001d
+int layout activity_discipline_day_handler 0x7f0b001c
+int layout activity_discipline_edit 0x7f0b001d
 int layout activity_group_editor 0x7f0b001e
 int layout activity_groups_attend 0x7f0b001f
 int layout activity_panel 0x7f0b0020

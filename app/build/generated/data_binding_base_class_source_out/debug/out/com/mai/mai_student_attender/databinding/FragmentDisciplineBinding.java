@@ -5,15 +5,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.tabs.TabItem;
-import com.google.android.material.tabs.TabLayout;
 import com.mai.mai_student_attender.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -24,51 +24,43 @@ public final class FragmentDisciplineBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText DisciplineList;
+  public final LinearLayout LayoutDisList;
 
   @NonNull
-  public final TabItem Hat;
+  public final ScrollView ScrollDisList;
 
   @NonNull
-  public final TabItem Home;
+  public final Button bDisListAdd;
 
   @NonNull
-  public final TabItem People;
+  public final ListView disciplineList;
 
   @NonNull
-  public final LinearLayout Spisok;
+  public final LinearLayout middleDisList;
 
   @NonNull
-  public final TabItem String;
+  public final LinearLayout topDisList;
 
   @NonNull
-  public final TabLayout Tablo;
+  public final TextView twDisListPust;
 
   @NonNull
-  public final Button button;
-
-  @NonNull
-  public final ConstraintLayout constraintLayout;
-
-  @NonNull
-  public final ConstraintLayout navigationDiscipline;
+  public final TextView twDisListVP;
 
   private FragmentDisciplineBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText DisciplineList, @NonNull TabItem Hat, @NonNull TabItem Home,
-      @NonNull TabItem People, @NonNull LinearLayout Spisok, @NonNull TabItem String,
-      @NonNull TabLayout Tablo, @NonNull Button button, @NonNull ConstraintLayout constraintLayout,
-      @NonNull ConstraintLayout navigationDiscipline) {
+      @NonNull LinearLayout LayoutDisList, @NonNull ScrollView ScrollDisList,
+      @NonNull Button bDisListAdd, @NonNull ListView disciplineList,
+      @NonNull LinearLayout middleDisList, @NonNull LinearLayout topDisList,
+      @NonNull TextView twDisListPust, @NonNull TextView twDisListVP) {
     this.rootView = rootView;
-    this.DisciplineList = DisciplineList;
-    this.Hat = Hat;
-    this.Home = Home;
-    this.People = People;
-    this.Spisok = Spisok;
-    this.String = String;
-    this.Tablo = Tablo;
-    this.button = button;
-    this.constraintLayout = constraintLayout;
-    this.navigationDiscipline = navigationDiscipline;
+    this.LayoutDisList = LayoutDisList;
+    this.ScrollDisList = ScrollDisList;
+    this.bDisListAdd = bDisListAdd;
+    this.disciplineList = disciplineList;
+    this.middleDisList = middleDisList;
+    this.topDisList = topDisList;
+    this.twDisListPust = twDisListPust;
+    this.twDisListVP = twDisListVP;
   }
 
   @Override
@@ -98,64 +90,57 @@ public final class FragmentDisciplineBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.DisciplineList;
-      EditText DisciplineList = ViewBindings.findChildViewById(rootView, id);
-      if (DisciplineList == null) {
+      id = R.id.LayoutDisList;
+      LinearLayout LayoutDisList = ViewBindings.findChildViewById(rootView, id);
+      if (LayoutDisList == null) {
         break missingId;
       }
 
-      id = R.id.Hat;
-      TabItem Hat = ViewBindings.findChildViewById(rootView, id);
-      if (Hat == null) {
+      id = R.id.ScrollDisList;
+      ScrollView ScrollDisList = ViewBindings.findChildViewById(rootView, id);
+      if (ScrollDisList == null) {
         break missingId;
       }
 
-      id = R.id.Home;
-      TabItem Home = ViewBindings.findChildViewById(rootView, id);
-      if (Home == null) {
+      id = R.id.bDisListAdd;
+      Button bDisListAdd = ViewBindings.findChildViewById(rootView, id);
+      if (bDisListAdd == null) {
         break missingId;
       }
 
-      id = R.id.People;
-      TabItem People = ViewBindings.findChildViewById(rootView, id);
-      if (People == null) {
+      id = R.id.disciplineList;
+      ListView disciplineList = ViewBindings.findChildViewById(rootView, id);
+      if (disciplineList == null) {
         break missingId;
       }
 
-      id = R.id.Spisok;
-      LinearLayout Spisok = ViewBindings.findChildViewById(rootView, id);
-      if (Spisok == null) {
+      id = R.id.middleDisList;
+      LinearLayout middleDisList = ViewBindings.findChildViewById(rootView, id);
+      if (middleDisList == null) {
         break missingId;
       }
 
-      id = R.id.String;
-      TabItem String = ViewBindings.findChildViewById(rootView, id);
-      if (String == null) {
+      id = R.id.topDisList;
+      LinearLayout topDisList = ViewBindings.findChildViewById(rootView, id);
+      if (topDisList == null) {
         break missingId;
       }
 
-      id = R.id.Tablo;
-      TabLayout Tablo = ViewBindings.findChildViewById(rootView, id);
-      if (Tablo == null) {
+      id = R.id.twDisListPust;
+      TextView twDisListPust = ViewBindings.findChildViewById(rootView, id);
+      if (twDisListPust == null) {
         break missingId;
       }
 
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.twDisListVP;
+      TextView twDisListVP = ViewBindings.findChildViewById(rootView, id);
+      if (twDisListVP == null) {
         break missingId;
       }
 
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
-      if (constraintLayout == null) {
-        break missingId;
-      }
-
-      ConstraintLayout navigationDiscipline = (ConstraintLayout) rootView;
-
-      return new FragmentDisciplineBinding((ConstraintLayout) rootView, DisciplineList, Hat, Home,
-          People, Spisok, String, Tablo, button, constraintLayout, navigationDiscipline);
+      return new FragmentDisciplineBinding((ConstraintLayout) rootView, LayoutDisList,
+          ScrollDisList, bDisListAdd, disciplineList, middleDisList, topDisList, twDisListPust,
+          twDisListVP);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

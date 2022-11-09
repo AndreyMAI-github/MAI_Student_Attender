@@ -2,104 +2,70 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation_discipline"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DisciplineList">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+    <LinearLayout
+        android:id="@+id/topDisList"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/twDisListPust"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/twDisListVP"
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ваши предметы"
+            android:textAlignment="center"
+            android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="72dp"
-            android:layout_height="86dp"
-            android:text="+"
-            android:textAlignment="gravity"
-            android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="60sp"
-            app:layout_constraintBottom_toTopOf="@id/Spisok"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:visibility="visible" />
-
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/Tablo"
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="1dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/Home"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Home"
-                tools:layout_editor_absoluteX="1dp"
-                tools:layout_editor_absoluteY="664dp" />
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/People"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="People" />
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/Hat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hat"
-                tools:layout_editor_absoluteX="274dp"
-                tools:layout_editor_absoluteY="674dp" />
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/String"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Strings" />
-        </com.google.android.material.tabs.TabLayout>
-
-        <LinearLayout
-            android:id="@+id/Spisok"
-            android:layout_width="410dp"
-            android:layout_height="607dp"
-            android:layout_marginTop="76dp"
-            android:layout_marginEnd="1dp"
-            android:layout_marginBottom="48dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </LinearLayout>
-
-        <EditText
-            android:id="@+id/DisciplineList"
-            android:layout_width="178dp"
-            android:layout_height="48dp"
-            android:text="Ваши предметы"
-            android:textSize="21sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/Spisok"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:id="@+id/bDisListAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+" />
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="410dp"
-        android:layout_height="607dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="48dp"
+        android:id="@+id/middleDisList"
+        android:layout_width="412dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="1dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topDisList">
+
+        <ScrollView
+            android:id="@+id/ScrollDisList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/LayoutDisList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/disciplineList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
