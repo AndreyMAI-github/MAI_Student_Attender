@@ -6,127 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".GroupEditor">
 
-    <TextView
-        android:id="@+id/textNumber_of_group"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:text="TextView"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TopPanelGrEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button_back_to_groups"
-        android:layout_width="75dp"
-        android:layout_height="48dp"
-        android:text="back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button_add_students"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:text="+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_add_students"
-        android:layout_width="75dp"
-        android:layout_height="48dp"
-        android:text="+"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textNumber_of_group"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_add_students"
+            app:layout_constraintStart_toEndOf="@+id/button_back_to_groups"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_back_to_groups"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:text="back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <ListView
         android:id="@+id/StudentsList"
         android:layout_width="409dp"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textNumber_of_group"
-        tools:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayout4"
-                android:layout_width="match_parent"
-                android:layout_height="68dp"
-                android:layout_marginTop="0dp"
-                tools:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/text_student1"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="student1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayout5"
-                android:layout_width="match_parent"
-                android:layout_height="68dp"
-                android:layout_marginTop="10dp"
-                tools:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/text_student2"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="student2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayout6"
-                android:layout_width="match_parent"
-                android:layout_height="68dp"
-                android:layout_marginTop="10dp"
-                tools:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/text_student3"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="student3"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayout7"
-                android:layout_width="match_parent"
-                android:layout_height="68dp"
-                android:layout_marginTop="10dp"
-                tools:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/text_student4"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="student4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="68dp"
-                android:layout_marginTop="10dp"
-                tools:layout_height="wrap_content">
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/TopPanelGrEdit">
 
 
     </ListView>
