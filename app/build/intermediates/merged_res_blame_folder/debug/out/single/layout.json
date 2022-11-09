@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_group_editor.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_group_editor.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_dicipline_edit.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_dicipline_edit.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_dicipline_day_handler.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_dicipline_day_handler.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/fragment_groups.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/fragment_settings.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_groups_attend.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_groups_attend.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_panel.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_panel.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/activity_student_attend.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/activity_student_attend.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/fragment_discipline.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/fragment_discipline.xml"
+    },
+    {
+        "merged": "com.mai.mai_student_attender.app-mergeDebugResources-42:/layout/fragment_home.xml",
+        "source": "com.mai.mai_student_attender.app-main-45:/layout/fragment_home.xml"
+    }
+]
