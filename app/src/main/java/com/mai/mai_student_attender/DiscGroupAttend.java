@@ -9,6 +9,8 @@ public class DiscGroupAttend extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Logger.d("DiscGroupAttend Created");
+
         setContentView(R.layout.activity_groups_attend);
     }
 }

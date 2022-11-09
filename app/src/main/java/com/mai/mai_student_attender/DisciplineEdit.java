@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DiciplineEdit extends AppCompatActivity {
+public class DisciplineEdit extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dicipline_edit);
+        Logger.d("DiciplineEdit Created");
+
+        setContentView(R.layout.activity_discipline_edit);
     }
 }
