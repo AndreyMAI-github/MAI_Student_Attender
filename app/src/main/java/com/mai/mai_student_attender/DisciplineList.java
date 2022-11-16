@@ -9,6 +9,11 @@ public class DisciplineList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_discipline_list);
+
+        Logger.d("DisciplineList Created");
+
+//        setContentView(R.layout.activity_discipline_list);
+        setContentView(R.layout.fragment_discipline);
+
     }
 }

@@ -13,10 +13,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_box_panel_activity">
+        app:layout_constraintTop_toBottomOf="@+id/Verh">
 
         <ListView
             android:id="@+id/student_attend"
+
+            android:choiceMode="multipleChoice"
+
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +29,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     //<androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/top_box_panel_activity"
+        android:id="@+id/Verh"
         android:layout_width="412dp"
         android:layout_height="81dp"
         app:layout_constraintEnd_toEndOf="parent"
