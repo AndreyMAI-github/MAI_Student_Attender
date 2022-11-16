@@ -2570,7 +2570,6 @@ int id CTRL 0x7f080003
 int id FUNCTION 0x7f080005
 int id Group_nav 0x7f080006
 int id Home_nav 0x7f080009
-int id LayoutDisList 0x7f08021f
 int id META 0x7f08000a
 int id NO_DEBUG 0x7f08000b
 int id SHIFT 0x7f08000d
@@ -2578,7 +2577,6 @@ int id SHOW_ALL 0x7f08000e
 int id SHOW_PATH 0x7f08000f
 int id SHOW_PROGRESS 0x7f080010
 int id SYM 0x7f080011
-int id ScrollDisList 0x7f080220
 int id TOP_END 0x7f080014
 int id TOP_START 0x7f080015
 int id accelerate 0x7f080017

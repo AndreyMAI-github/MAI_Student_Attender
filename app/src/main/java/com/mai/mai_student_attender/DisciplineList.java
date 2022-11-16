@@ -8,7 +8,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class DisciplineList extends AppCompatActivity {
-
+// Сначала добавление функциональных кнопок-дисциплин
+// Создание отдельного окна для этого действия, в котором будет вводится название дисциплин,
+// Которые будут преобразовываться в кнопки-дисциплины, с последующим переходом в DisciplineEdit
     String[] discipline = {"OOP", "PMU"};
 
 
@@ -16,16 +18,20 @@ public class DisciplineList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_discipline);
+        setDisciplineList(discipline);
+
+    }
+
+    protected void setDisciplineList(String[] discipline) {
 
         // получаем элемент ListView
-        ListView disciplineList = findViewById(R.id.disciplineList);
+        ListView fragment_disciplineListView = findViewById(R.id.disciplineList);
 
         // создаем адаптер
-        ArrayAdapter<String> adapter = new ArrayAdapter(this,
-                android.R.layout.simple_list_item_1, discipline);
+        ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, discipline);
 
         // устанавливаем для списка адаптер
-         disciplineList.setAdapter(adapter);
+        fragment_disciplineListView.setAdapter(adapter);
 
     }
 }

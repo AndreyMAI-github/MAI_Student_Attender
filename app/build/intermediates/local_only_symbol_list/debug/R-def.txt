@@ -16,8 +16,6 @@ drawable ic_launcher_foreground
 drawable ic_settings_black_24dp
 id Group_nav
 id Home_nav
-id LayoutDisList
-id ScrollDisList
 id bActMainCalendar
 id bActMainDiscipline
 id bActMainGroups

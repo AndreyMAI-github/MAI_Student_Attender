@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,12 +21,6 @@ import java.lang.String;
 public final class FragmentDisciplineBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final LinearLayout LayoutDisList;
-
-  @NonNull
-  public final ScrollView ScrollDisList;
 
   @NonNull
   public final Button bDisListAdd;
@@ -47,14 +40,11 @@ public final class FragmentDisciplineBinding implements ViewBinding {
   @NonNull
   public final TextView twDisListVP;
 
-  private FragmentDisciplineBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout LayoutDisList, @NonNull ScrollView ScrollDisList,
-      @NonNull Button bDisListAdd, @NonNull ListView disciplineList,
-      @NonNull LinearLayout middleDisList, @NonNull LinearLayout topDisList,
-      @NonNull TextView twDisListPust, @NonNull TextView twDisListVP) {
+  private FragmentDisciplineBinding(@NonNull ConstraintLayout rootView, @NonNull Button bDisListAdd,
+      @NonNull ListView disciplineList, @NonNull LinearLayout middleDisList,
+      @NonNull LinearLayout topDisList, @NonNull TextView twDisListPust,
+      @NonNull TextView twDisListVP) {
     this.rootView = rootView;
-    this.LayoutDisList = LayoutDisList;
-    this.ScrollDisList = ScrollDisList;
     this.bDisListAdd = bDisListAdd;
     this.disciplineList = disciplineList;
     this.middleDisList = middleDisList;
@@ -90,18 +80,6 @@ public final class FragmentDisciplineBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.LayoutDisList;
-      LinearLayout LayoutDisList = ViewBindings.findChildViewById(rootView, id);
-      if (LayoutDisList == null) {
-        break missingId;
-      }
-
-      id = R.id.ScrollDisList;
-      ScrollView ScrollDisList = ViewBindings.findChildViewById(rootView, id);
-      if (ScrollDisList == null) {
-        break missingId;
-      }
-
       id = R.id.bDisListAdd;
       Button bDisListAdd = ViewBindings.findChildViewById(rootView, id);
       if (bDisListAdd == null) {
@@ -138,9 +116,8 @@ public final class FragmentDisciplineBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDisciplineBinding((ConstraintLayout) rootView, LayoutDisList,
-          ScrollDisList, bDisListAdd, disciplineList, middleDisList, topDisList, twDisListPust,
-          twDisListVP);
+      return new FragmentDisciplineBinding((ConstraintLayout) rootView, bDisListAdd, disciplineList,
+          middleDisList, topDisList, twDisListPust, twDisListVP);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

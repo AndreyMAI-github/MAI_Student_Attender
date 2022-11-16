@@ -2571,7 +2571,6 @@ id CTRL
 id FUNCTION
 id Group_nav
 id Home_nav
-id LayoutDisList
 id META
 id NO_DEBUG
 id SHIFT
@@ -2579,7 +2578,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id ScrollDisList
 id TOP_END
 id TOP_START
 id accelerate
