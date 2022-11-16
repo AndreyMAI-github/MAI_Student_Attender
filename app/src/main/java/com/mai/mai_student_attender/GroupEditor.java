@@ -27,6 +27,7 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
     // определяем кнопку BackButton
     // присваеваем ей активити в качестве обработчика
     Button BackButton;
+    Button AdditionalButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,9 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
         BackButton = (Button) findViewById(R.id.button_back_to_groups);
         BackButton.setOnClickListener(this);
+
+        AdditionalButton = (Button) findViewById(R.id.button_add_students);
+        AdditionalButton.setOnClickListener(this);
 
         String[] StudentsListArray = {"Астапов Владимир", "Бойко Виктория"};
 
@@ -47,6 +51,8 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
         // устанавливаем для списка адаптер
         list_of_students.setAdapter(adapter);
+
+
     }
 
     // реализация метода onClick
@@ -61,11 +67,11 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
                 break;
             case R.id.button_add_students:
                 Log.v("btn","Pressed AddStud btn");
-                Toast.makeText(this, "Btn pressed", Toast.LENGTH_LONG).show();
-                break;
-            default:
+                Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
                 break;
         }
     }
+
+
 }
 
