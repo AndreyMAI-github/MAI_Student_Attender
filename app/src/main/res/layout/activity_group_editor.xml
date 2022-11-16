@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".GroupEditor">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/TopPanelGrEdit"
         android:layout_width="match_parent"
@@ -44,10 +45,9 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     <ListView
         android:id="@+id/StudentsList"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

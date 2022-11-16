@@ -12,8 +12,13 @@ import android.view.View.OnClickListener;
 import android.content.Intent;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.fragment.app.DialogFragment;
+import java.util.Arrays;
+import androidx.annotation.NonNull;
+import android.app.AlertDialog;
+import android.app.Dialog;
 
-import java.util.logging.Logger;
+
 
 
 public class GroupEditor extends AppCompatActivity implements OnClickListener {
@@ -40,7 +45,9 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
         AdditionalButton = (Button) findViewById(R.id.button_add_students);
         AdditionalButton.setOnClickListener(this);
 
-        String[] StudentsListArray = {"Астапов Владимир", "Бойко Виктория"};
+        String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
+        Arrays.sort(StudentsListArray);
+
 
         // получаем элемент ListView
         ListView list_of_students = findViewById(R.id.StudentsList);
@@ -51,27 +58,31 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
         // устанавливаем для списка адаптер
         list_of_students.setAdapter(adapter);
+    }
 
-
+    public void showDialog(View v) {
+        AddStudentsDialogFragment dialog = new AddStudentsDialogFragment();
+//        Bundle args = new Bundle();
+//        dialog.setArguments(args);
+        String str = "";
+        dialog.show(getSupportFragmentManager(), "AddStudents");
+//        str = dialog.getArguments().getString(StData);
     }
 
     // реализация метода onClick
     @Override
     public void onClick(View v) {
-        Log.v("btn","Created onClick btn");
         switch (v.getId()) {
             case R.id.button_back_to_groups:
-                Log.v("btn","Pressed back btn");
                 Intent intent = new Intent(this, GroupList.class);
                 startActivity(intent);
                 break;
             case R.id.button_add_students:
                 Log.v("btn","Pressed AddStud btn");
-                Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
+                showDialog(v);
                 break;
         }
     }
-
-
 }
 
