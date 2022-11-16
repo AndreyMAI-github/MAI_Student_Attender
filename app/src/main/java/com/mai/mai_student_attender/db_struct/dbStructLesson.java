@@ -16,6 +16,14 @@ public class dbStructLesson {
     private Time time;
     private Date date;
 
+    public dbStructLesson(int idL, int idD, WorkType tp, Time t, Date d){
+        idLesson = idL;
+        idDiscipline = idD;
+        type = tp;
+        time = t;
+        date =d;
+    }
+
     public int getIdLesson(){return idLesson;}
 
     public int getIdDiscipline(){return idDiscipline;}
