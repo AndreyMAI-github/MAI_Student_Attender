@@ -19,6 +19,7 @@
             android:inputType="textPersonName"
             android:hint="Введите ФИО"
             android:text=""/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

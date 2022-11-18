@@ -39,6 +39,7 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group_editor);
 
+
         BackButton = (Button) findViewById(R.id.button_back_to_groups);
         BackButton.setOnClickListener(this);
 

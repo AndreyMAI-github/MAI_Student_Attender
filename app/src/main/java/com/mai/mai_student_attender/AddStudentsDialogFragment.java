@@ -2,24 +2,14 @@ package com.mai.mai_student_attender;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
-import android.content.Intent;
-import android.widget.TextView;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.annotation.NonNull;
-
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.DialogFragment;
+import android.widget.EditText;
 
 public class AddStudentsDialogFragment extends DialogFragment {
 /*
@@ -36,17 +26,41 @@ public class AddStudentsDialogFragment extends DialogFragment {
 
  */
 
+//    final AddStudentsDialogFragment context = this;
+//    private Button addbutton;
+//    private EditText result;
+//
+//    @Override
+//    public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_add_stud_dialog);
+//
+//        addbutton = (Button) findViewById(R.id.addbutton);
+//        result = (EditText) findViewById(R.id.editTextNameStudent);
+//    }
+
+
     @NonNull
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+        final EditText input = new EditText(getActivity());
+        builder.setView(input);
+
         return builder
                 .setTitle("Добавление студента")
                 .setView(R.layout.activity_add_stud_dialog)
-                .setPositiveButton("Добавить", )
-                .setNegativeButton("Отмена", null)
+ /*               .setPositiveButton("Добавить", new DialogInterface.OnClickListener(){
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                    String val = input.getText();
+                    }
+                });
+*/        builder.setNegativeButton("Отмена", null)
                 .create();
+
     }
+
 
 
 
