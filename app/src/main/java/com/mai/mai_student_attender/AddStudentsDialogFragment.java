@@ -4,15 +4,26 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.annotation.NonNull;
 import android.widget.EditText;
+import android.widget.TextView;
+
+import java.util.logging.Logger;
 
 public class AddStudentsDialogFragment extends DialogFragment {
-/*
+
+    private String nameData;
+    private EditText dataField;
+
+    /*
     OnClickListener okClicker = new OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -48,16 +59,19 @@ public class AddStudentsDialogFragment extends DialogFragment {
         final EditText input = new EditText(getActivity());
         builder.setView(input);
 
-        return builder
+        AlertDialog result = builder
                 .setTitle("Добавление студента")
                 .setView(R.layout.activity_add_stud_dialog)
                 .setPositiveButton("Добавить", null)
-
-        .setNegativeButton("Отмена", null)
+                .setNegativeButton("Отмена", null)
                 .create();
-
+        dataField = result.findViewById(R.id.editTextNameStudent);
+        dataField.setText("Aboba");
+        return result;
     }
 }
+
+
  /*new DialogInterface.OnClickListener(){
                     @Override
                     public void onClick(DialogInterface dialog, int whichButton) {
