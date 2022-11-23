@@ -11,7 +11,7 @@
 9-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:5:5-84:19
+11-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:5:5-85:19
 12        android:allowBackup="true"
 12-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,155 +33,170 @@
 22        android:theme="@style/Theme.MyApplication" >
 22-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:13:9-51
 23        <activity
-23-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:15:9-21:20
-24            android:name="com.mai.mai_student_attender.GroupEditor"
-24-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:16:13-40
-25            android:exported="false" >
+23-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:15:9-22:20
+24            android:name="com.mai.mai_student_attender.PanelActivity"
+24-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:16:13-42
+25            android:exported="false"
 25-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:22:9-28:20
-31            android:name="com.mai.mai_student_attender.GroupList"
-31-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:23:13-38
-32            android:exported="false" >
-32-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:24:13-37
-33            <meta-data
-33-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-34                android:name="android.app.lib_name"
-34-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-35                android:value="" />
-35-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-36        </activity>
-37        <activity
-37-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:30:9-36:20
-38            android:name="com.mai.mai_student_attender.DiciplineDayHandler"
-38-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:31:13-48
-39            android:exported="false" >
-39-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:32:13-37
-40            <meta-data
-40-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-41                android:name="android.app.lib_name"
-41-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-42                android:value="" />
-42-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-43        </activity>
-44        <activity
-44-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:38:9-44:20
-45            android:name="com.mai.mai_student_attender.DiciplineEdit"
-45-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:39:13-42
-46            android:exported="false" >
-46-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:40:13-37
-47            <meta-data
-47-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-48                android:name="android.app.lib_name"
-48-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-49                android:value="" />
-49-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-50        </activity>
-51        <activity
-51-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:46:9-52:20
-52            android:name="com.mai.mai_student_attender.DisciplineList"
-52-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:47:13-43
-53            android:exported="false" >
-53-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:48:13-37
-54            <meta-data
-54-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-55                android:name="android.app.lib_name"
-55-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-56                android:value="" />
-56-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-57        </activity>
-58        <activity
-58-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:54:9-60:20
-59            android:name="com.mai.mai_student_attender.StudentAttend"
-59-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:55:13-42
-60            android:exported="false" >
-60-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:56:13-37
-61            <meta-data
-61-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-62                android:name="android.app.lib_name"
-62-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-63                android:value="" />
-63-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-64        </activity>
-65        <activity
-65-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:62:9-68:20
-66            android:name="com.mai.mai_student_attender.DiscGroupAttend"
-66-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:63:13-44
-67            android:exported="false" >
-67-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:64:13-37
-68            <meta-data
-68-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-69                android:name="android.app.lib_name"
-69-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-70                android:value="" />
-70-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-71        </activity>
-72        <activity
-72-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:70:9-82:20
-73            android:name="com.mai.mai_student_attender.MainActivity"
-73-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:71:13-41
-74            android:exported="true" >
-74-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:72:13-36
-75            <intent-filter>
-75-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:73:13-77:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:17-69
-76-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:17-77
-78-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:27-74
-79            </intent-filter>
-80
-81            <meta-data
-81-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
-82                android:name="android.app.lib_name"
-82-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-83                android:value="" />
-83-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
-84        </activity>
+26            android:label="@string/title_activity_panel" >
+26-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-57
+27            <meta-data
+27-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+28                android:name="android.app.lib_name"
+28-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+29                android:value="" />
+29-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+30        </activity>
+31        <activity
+31-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:23:9-29:20
+32            android:name="com.mai.mai_student_attender.GroupEditor"
+32-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:24:13-40
+33            android:exported="false" >
+33-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:25:13-37
+34            <meta-data
+34-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+35                android:name="android.app.lib_name"
+35-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+36                android:value="" />
+36-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+37        </activity>
+38        <activity
+38-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:30:9-36:20
+39            android:name="com.mai.mai_student_attender.GroupList"
+39-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:31:13-38
+40            android:exported="false" >
+40-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:32:13-37
+41            <meta-data
+41-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+42                android:name="android.app.lib_name"
+42-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+43                android:value="" />
+43-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+44        </activity>
+45        <activity
+45-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:37:9-43:20
+46            android:name="com.mai.mai_student_attender.DisciplineDayHandler"
+46-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:38:13-49
+47            android:exported="false" >
+47-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:39:13-37
+48            <meta-data
+48-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+49                android:name="android.app.lib_name"
+49-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+50                android:value="" />
+50-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+51        </activity>
+52        <activity
+52-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:44:9-50:20
+53            android:name="com.mai.mai_student_attender.DisciplineEdit"
+53-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:45:13-43
+54            android:exported="false" >
+54-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:46:13-37
+55            <meta-data
+55-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+56                android:name="android.app.lib_name"
+56-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+57                android:value="" />
+57-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+58        </activity>
+59        <activity
+59-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:51:9-57:20
+60            android:name="com.mai.mai_student_attender.DisciplineList"
+60-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:52:13-43
+61            android:exported="false" >
+61-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:53:13-37
+62            <meta-data
+62-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+63                android:name="android.app.lib_name"
+63-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+64                android:value="" />
+64-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+65        </activity>
+66        <activity
+66-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:58:9-64:20
+67            android:name="com.mai.mai_student_attender.StudentAttend"
+67-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:59:13-42
+68            android:exported="false" >
+68-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:60:13-37
+69            <meta-data
+69-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+70                android:name="android.app.lib_name"
+70-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+71                android:value="" />
+71-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+72        </activity>
+73        <activity
+73-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:65:9-71:20
+74            android:name="com.mai.mai_student_attender.DiscGroupAttend"
+74-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:66:13-44
+75            android:exported="false" >
+75-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:67:13-37
+76            <meta-data
+76-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+77                android:name="android.app.lib_name"
+77-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+78                android:value="" />
+78-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+79        </activity>
+80        <activity
+80-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:72:9-84:20
+81            android:name="com.mai.mai_student_attender.MainActivity"
+81-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:73:13-41
+82            android:exported="true" >
+82-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:13-36
+83            <intent-filter>
+83-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:75:13-79:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:17-69
+84-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:25-66
 85
-86        <provider
-86-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-87            android:name="androidx.startup.InitializationProvider"
-87-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-88            android:authorities="com.mai.mai_student_attender.androidx-startup"
-88-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-89            android:exported="false" >
-89-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-90            <meta-data
-90-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-91-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-92                android:value="androidx.startup" />
-92-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-93            <meta-data
-93-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-94-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-95                android:value="androidx.startup" />
-95-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-96        </provider>
-97
-98        <uses-library
-98-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-99            android:name="androidx.window.extensions"
-99-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-100            android:required="false" />
-100-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-101        <uses-library
-101-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-102            android:name="androidx.window.sidecar"
-102-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-103            android:required="false" />
-103-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-104    </application>
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:78:17-77
+86-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:78:27-74
+87            </intent-filter>
+88
+89            <meta-data
+89-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
+90                android:name="android.app.lib_name"
+90-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+91                android:value="" />
+91-->/Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
+92        </activity>
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+96            android:authorities="com.mai.mai_student_attender.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookpro/.gradle/caches/transforms-3/ec6e2ba61c9a42dd8e0aa44ee71f9dfb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookpro/.gradle/caches/transforms-3/371d4428813d11175307b9e72a350208/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+104        </provider>
 105
-106</manifest>
+106        <uses-library
+106-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+107            android:name="androidx.window.extensions"
+107-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+109        <uses-library
+109-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+110            android:name="androidx.window.sidecar"
+110-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+111            android:required="false" />
+111-->[androidx.window:window:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/5efc42ad06fee0a4f57c0275125b73f8/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+112    </application>
+113
+114</manifest>

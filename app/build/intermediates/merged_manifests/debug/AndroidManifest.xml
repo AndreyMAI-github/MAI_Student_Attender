@@ -21,6 +21,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.mai.mai_student_attender.PanelActivity"
+            android:exported="false"
+            android:label="@string/title_activity_panel" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.mai.mai_student_attender.GroupEditor"
             android:exported="false" >
             <meta-data
@@ -35,14 +43,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.mai.mai_student_attender.DiciplineDayHandler"
+            android:name="com.mai.mai_student_attender.DisciplineDayHandler"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.mai.mai_student_attender.DiciplineEdit"
+            android:name="com.mai.mai_student_attender.DisciplineEdit"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

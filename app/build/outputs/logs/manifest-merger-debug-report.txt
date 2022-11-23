@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] /Users/macbookpro/.gradle/caches/transforms-3/148010573bd59878e8bacad5a530b55b/transformed/viewbinding-7.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/90d6b3f19cdef85100e34c5cb0facc09/transformed/navigation-ui-2.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/macbookpro/.gradle/caches/transforms-3/1657eaacfdf73cb5b94d8778151083b3/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
@@ -11,14 +11,15 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/macbookpro
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/0758de52a88bd0e13e04f350fcb3ffe3/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/3237c50a3caa87d96377052b95ee4677/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/a0652cecefdba676c44bbac922457ab6/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/979c7cd24a78bdac606d4d355055d5ea/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/216acb4de398562ea8e70641e584e410/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/e7b5b4f7081df9667d415057cc28de75/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/4f284552b083a19b19469f4addf3b26b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/84aca880f808fad4f8f34c42410bff4a/transformed/navigation-common-2.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a9e4ff35c7a68e17eddfa153026a9e58/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/aec525f2b0fd07f7fb7385e0ead2e3b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/236eba639ac33151bf3fe8ee282b37e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/615d68c119f5b23283ee26bf38d4dfb4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -48,8 +49,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/macbookpro/.gradle/caches/
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/macbookpro/.gradle/caches/transforms-3/fbb7e7ed708036550bb850b8fc74094c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/d3dd58c6e21ac3071343d2cc4fb503a2/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/macbookpro/.gradle/caches/transforms-3/3cb5c66fe0a968009044032844119254/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/5b5fed529718e22d8a1e73dfbb8f0f01/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a995dcbaba492c416382ea9e66d9dd72/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/macbookpro/.gradle/caches/transforms-3/3b2232aed2e224057abccf48e4079fa0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/f8376e3cbb76e3fb2cb2fb8cf937bb50/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/macbookpro/.gradle/caches/transforms-3/0d9e1b4391addfda74e39081112cf686/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/9f8ae07c01b7029dd5f1bc24deb42eb2/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -57,27 +58,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/macbookpro/.gradle
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/e73c86b3573ad4a7ff179a0b22b3e639/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/e49e4dff70250dbb03e409465432a16f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/macbookpro/.gradle/caches/transforms-3/313ea14ffe4d03080b06e74a9195c166/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
 	package
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:5:5-84:19
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:5:5-85:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/macbookpro/.gradle/caches/transforms-3/1657eaacfdf73cb5b94d8778151083b3/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/macbookpro/.gradle/caches/transforms-3/1657eaacfdf73cb5b94d8778151083b3/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/macbookpro/.gradle/caches/transforms-3/28075e3b5fe6386b541742e3f2e4f8fe/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -114,70 +115,78 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/macb
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.mai.mai_student_attender.GroupEditor
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:15:9-21:20
+activity#com.mai.mai_student_attender.PanelActivity
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:label
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-57
 	android:exported
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:16:13-40
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:16:13-42
 meta-data#android.app.lib_name
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:18:13-20:36
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:13-21:36
 	android:value
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-33
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:21:17-33
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:19:17-52
-activity#com.mai.mai_student_attender.GroupList
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:22:9-28:20
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:20:17-52
+activity#com.mai.mai_student_attender.GroupEditor
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:23:9-29:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:24:13-37
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:23:13-38
-activity#com.mai.mai_student_attender.DiciplineDayHandler
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:24:13-40
+activity#com.mai.mai_student_attender.GroupList
 ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:30:9-36:20
 	android:exported
 		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:31:13-48
-activity#com.mai.mai_student_attender.DiciplineEdit
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:38:9-44:20
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:31:13-38
+activity#com.mai.mai_student_attender.DisciplineDayHandler
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:37:9-43:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:39:13-42
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:38:13-49
+activity#com.mai.mai_student_attender.DisciplineEdit
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:45:13-43
 activity#com.mai.mai_student_attender.DisciplineList
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:46:9-52:20
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:51:9-57:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:48:13-37
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:47:13-43
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:52:13-43
 activity#com.mai.mai_student_attender.StudentAttend
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:54:9-60:20
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:58:9-64:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:56:13-37
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:55:13-42
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:59:13-42
 activity#com.mai.mai_student_attender.DiscGroupAttend
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:62:9-68:20
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:65:9-71:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:64:13-37
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:63:13-44
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:66:13-44
 activity#com.mai.mai_student_attender.MainActivity
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:70:9-82:20
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:72:9-84:20
 	android:exported
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:72:13-36
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:71:13-41
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:73:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:73:13-77:29
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:75:13-79:29
 action#android.intent.action.MAIN
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:17-69
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:17-69
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:74:25-66
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:17-77
+ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:78:17-77
 	android:name
-		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:76:27-74
+		ADDED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml:78:27-74
 uses-sdk
 INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/macbookpro/Desktop/MAI_Student_Attender/app/src/main/AndroidManifest.xml
@@ -196,22 +205,24 @@ MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/macbookpro/.gradle/cache
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/3237c50a3caa87d96377052b95ee4677/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/a0652cecefdba676c44bbac922457ab6/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/a0652cecefdba676c44bbac922457ab6/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/979c7cd24a78bdac606d4d355055d5ea/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/979c7cd24a78bdac606d4d355055d5ea/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/216acb4de398562ea8e70641e584e410/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/216acb4de398562ea8e70641e584e410/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/e7b5b4f7081df9667d415057cc28de75/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/e7b5b4f7081df9667d415057cc28de75/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/4f284552b083a19b19469f4addf3b26b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/4f284552b083a19b19469f4addf3b26b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/84aca880f808fad4f8f34c42410bff4a/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.5.2] /Users/macbookpro/.gradle/caches/transforms-3/84aca880f808fad4f8f34c42410bff4a/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a9e4ff35c7a68e17eddfa153026a9e58/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a9e4ff35c7a68e17eddfa153026a9e58/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/7d95e43c055dff7ebb1687bda552bb63/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] /Users/macbookpro/.gradle/caches/transforms-3/b06f0897605a79cb49b0aff5aa2fb0e1/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/macbookpro/.gradle/caches/transforms-3/1cfebe30befdf5d4ea1358867794a3f3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/aec525f2b0fd07f7fb7385e0ead2e3b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/aec525f2b0fd07f7fb7385e0ead2e3b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/236eba639ac33151bf3fe8ee282b37e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -270,10 +281,10 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/macbookpro/.gradle/caches/tr
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/d3dd58c6e21ac3071343d2cc4fb503a2/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/macbookpro/.gradle/caches/transforms-3/3cb5c66fe0a968009044032844119254/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/macbookpro/.gradle/caches/transforms-3/3cb5c66fe0a968009044032844119254/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/5b5fed529718e22d8a1e73dfbb8f0f01/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/5b5fed529718e22d8a1e73dfbb8f0f01/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a995dcbaba492c416382ea9e66d9dd72/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/a995dcbaba492c416382ea9e66d9dd72/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/macbookpro/.gradle/caches/transforms-3/3b2232aed2e224057abccf48e4079fa0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/macbookpro/.gradle/caches/transforms-3/3b2232aed2e224057abccf48e4079fa0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/f8376e3cbb76e3fb2cb2fb8cf937bb50/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/macbookpro/.gradle/caches/transforms-3/f8376e3cbb76e3fb2cb2fb8cf937bb50/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/macbookpro/.gradle/caches/transforms-3/0d9e1b4391addfda74e39081112cf686/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
