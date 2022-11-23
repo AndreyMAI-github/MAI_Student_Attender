@@ -13,6 +13,19 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".PanelActivity"
+            android:exported="true">
+<!--            android:label="@string/title_activity_panel">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".GroupEditor"
             android:exported="true">
             <meta-data
@@ -32,31 +45,28 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
-            android:name=".DiciplineDayHandler"
+            android:name=".DisciplineDayHandler"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
-            android:name=".DiciplineEdit"
+            android:name=".DisciplineEdit"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".DisciplineList"
             android:exported="false">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".StudentAttend"
             android:exported="false">
@@ -64,7 +74,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".DiscGroupAttend"
             android:exported="false">
@@ -86,6 +95,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
 
     </application>
 
