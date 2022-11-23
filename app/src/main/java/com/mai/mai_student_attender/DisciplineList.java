@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -17,8 +18,13 @@ public class DisciplineList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Logger.d("OnCreate");
+
         setContentView(R.layout.fragment_discipline);
+        Logger.d("OnSetContent");
+
         setDisciplineList(discipline);
+        Logger.d("OnSetDisciplineList");
 
     }
 
