@@ -22,7 +22,7 @@ public class DisciplineList extends AppCompatActivity {
 
     }
 
-    protected void setDisciplineList(String[] discipline) {
+    protected void setDisciplineList(String[] gitdiscipline) {
 
         // получаем элемент ListView
         ListView fragment_disciplineListView = findViewById(R.id.disciplineList);
