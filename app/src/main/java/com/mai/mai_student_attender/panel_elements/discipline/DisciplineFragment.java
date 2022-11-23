@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.mai.mai_student_attender.Logger;
 import com.mai.mai_student_attender.R;
 import com.mai.mai_student_attender.databinding.FragmentDisciplineBinding;
 
@@ -21,7 +22,7 @@ public class DisciplineFragment extends Fragment {
     // Создание отдельного окна для этого действия, в котором будет вводится название дисциплин,
     // Которые будут преобразовываться в кнопки-дисциплины, с последующим переходом в DisciplineEdit
 
-    String[] discipline = {"OOP", "PMU"};
+    String[] disciplineList = {"OOP", "PMU"};
 
     ListView fragment_disciplineListView;
     private FragmentDisciplineBinding binding;
@@ -29,32 +30,30 @@ public class DisciplineFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
         View view = inflater.inflate(R.layout.fragment_discipline,
                 container, false);
 
-        setDisciplineList(discipline);
 
-        // получаем элемент ListView
+
+         // получаем элемент ListView
         fragment_disciplineListView = view.findViewById(R.id.disciplineList);
+        Logger.d("Before return");
 
-        return
-                inflater.inflate(R.layout.fragment_discipline,null);
+        setDisciplineList(disciplineList);
+
+        return view;
 
     }
-
 
     protected void setDisciplineList(String[] discipline) {
-
-
         // создаем адаптер
-        ArrayAdapter<String> adapter = new ArrayAdapter(getContext(), android.R.layout.simple_list_item_1, discipline);
-
-        // устанавливаем для списка адаптер
-        fragment_disciplineListView.setAdapter(adapter);
-
+        Logger.d("Adapter");
+        if(discipline!= null) {
+            ArrayAdapter adapter = new ArrayAdapter(this.getContext(), android.R.layout.simple_list_item_1, discipline);
+            // устанавливаем для списка адаптер
+            Logger.d("Nuller");
+            fragment_disciplineListView.setAdapter(adapter);
+            Logger.d("Set Adapter");
+        }
     }
-
-
-
 }
