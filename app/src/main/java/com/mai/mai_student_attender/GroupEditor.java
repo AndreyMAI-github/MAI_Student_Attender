@@ -63,8 +63,8 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
     public void showDialog(View v) {
         AddStudentsDialogFragment dialog = new AddStudentsDialogFragment();
-//        Bundle args = new Bundle();
-//        dialog.setArguments(args);
+        Bundle args = new Bundle();
+        dialog.setArguments(args);
         String str = "";
         dialog.show(getSupportFragmentManager(), "AddStudents");
 //        str = dialog.getArguments().getString(StData);

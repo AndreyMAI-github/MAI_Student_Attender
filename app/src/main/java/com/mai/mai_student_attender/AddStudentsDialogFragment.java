@@ -45,8 +45,12 @@ public class AddStudentsDialogFragment extends DialogFragment {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
+        String str = getArguments().toString();
+
         final EditText input = new EditText(getActivity());
         builder.setView(input);
+
+
 
         return builder
                 .setTitle("Добавление студента")
@@ -58,6 +62,31 @@ public class AddStudentsDialogFragment extends DialogFragment {
 
     }
 }
+
+//    @NonNull
+//    public Dialog onCreateDialog(Bundle savedInstanceState) {
+//
+//        Dialog builder = new Dialog(getActivity());
+//
+//        String str = getArguments().toString();
+//
+//        final EditText input = new EditText(getActivity());
+////        builder.setView(input);
+//        builder.setContentView(input);
+//
+//        builder.setTitle("Добавление студента");
+//
+////        builder.setPositiveButton("Добавить", null);
+//
+//
+////                .setNegativeButton("Отмена", null)
+////                .create();
+//
+////        return builder
+//        builder.show();
+//        return builder;
+//    }
+
  /*new DialogInterface.OnClickListener(){
                     @Override
                     public void onClick(DialogInterface dialog, int whichButton) {
@@ -65,52 +94,3 @@ public class AddStudentsDialogFragment extends DialogFragment {
                     }
 
                 });*/
- /*
-    public String input;
-
-    @NonNull
-    public Dialog onCreateDialog(Bundle savedInstanceState) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
-        LayoutInflater inflater = LayoutInflater.from(this.getContext());
-        View textenter = inflater.inflate(R.layout.dialog_view, null);
-        EditText userinput = (EditText) textenter.findViewById(R.id.dialView_text2);
-
-        builder
-                .setTitle("Диалоговое окно")
-                .setIcon(android.R.drawable.ic_dialog_alert)
-                .setView(R.layout.dialog_view);
-//                .setMessage("Для закрытия окна нажмите ОК")
-        userinput.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int i, KeyEvent keyEvent) {
-                if (keyEvent.getAction() == KeyEvent.ACTION_DOWN && (i == KeyEvent.KEYCODE_ENTER)) {
-                    input = userinput.getText().toString();
-                    Toast.makeText(getContext(), "ooo", Toast.LENGTH_SHORT).show();
-                    return true;
-                }
-                input = "";
-                Toast.makeText(getContext(), "---", Toast.LENGTH_SHORT).show();
-                return false;
-            }
-        });
-
-        Button btn1 = (Button) textenter.findViewById(R.id.dialView_btn1);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Die!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(getContext(), "Hello "+input, Toast.LENGTH_SHORT).show();
-                    }
-                })
-                .setNegativeButton("Отмена", null);
-
-        return builder.create();
-    }
-*/
