@@ -55,6 +55,7 @@ public class AddStudentsDialogFragment extends DialogFragment {
 
 
 //        getActivity().getParent().getClass().getMethods();
+        ((GroupEditor)getActivity()).pushStud();
 
         return builder
                 .setTitle("Добавление студента")
