@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DiciplineDayHandler extends AppCompatActivity {
+public class DisciplineDayHandler extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dicipline_day_handler);
+        Logger.d("DiciplineDayHandler Created");
+
+        setContentView(R.layout.activity_discipline_day_handler);
     }
 }

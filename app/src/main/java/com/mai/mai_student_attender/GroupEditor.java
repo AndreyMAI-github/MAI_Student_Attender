@@ -49,6 +49,8 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Logger.d("GroupEditor Created");
+
         setContentView(R.layout.activity_group_editor);
 
 

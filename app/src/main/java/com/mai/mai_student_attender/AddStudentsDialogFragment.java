@@ -61,7 +61,7 @@ public class AddStudentsDialogFragment extends DialogFragment {
                 .setView(R.layout.activity_add_stud_dialog)
                 .setPositiveButton("Добавить", null)
 
-        .setNegativeButton("Отмена", null)
+                .setNegativeButton("Отмена", null)
                 .create();
 
     }
