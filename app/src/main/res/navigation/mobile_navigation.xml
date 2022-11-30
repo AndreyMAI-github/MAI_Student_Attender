@@ -28,5 +28,11 @@
         android:name="com.mai.mai_student_attender.panel_elements.settings.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
-    <!--(ПРОБЛЕМА label)-->
+
+    <fragment
+        android:id="@+id/panel_nav"
+        android:name="com.mai.mai_student_attender.panel_elements.settings.SettingsFragment"
+        android:label="Penal"
+        tools:layout="@layout/activity_panel" />
+
 </navigation>
