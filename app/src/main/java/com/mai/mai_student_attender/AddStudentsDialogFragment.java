@@ -63,34 +63,4 @@ public class AddStudentsDialogFragment extends DialogFragment {
     }
 }
 
-//    @NonNull
-//    public Dialog onCreateDialog(Bundle savedInstanceState) {
-//
-//        Dialog builder = new Dialog(getActivity());
-//
-//        String str = getArguments().toString();
-//
-//        final EditText input = new EditText(getActivity());
-////        builder.setView(input);
-//        builder.setContentView(input);
-//
-//        builder.setTitle("Добавление студента");
-//
-////        builder.setPositiveButton("Добавить", null);
-//
-//
-////                .setNegativeButton("Отмена", null)
-////                .create();
-//
-////        return builder
-//        builder.show();
-//        return builder;
-//    }
 
- /*new DialogInterface.OnClickListener(){
-                    @Override
-                    public void onClick(DialogInterface dialog, int whichButton) {
-                        String val = input.getText().toString();
-                    }
-
-                });*/
