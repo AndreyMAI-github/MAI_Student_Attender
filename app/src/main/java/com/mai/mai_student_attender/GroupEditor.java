@@ -13,6 +13,8 @@ import android.content.Intent;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.fragment.app.DialogFragment;
+
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import androidx.annotation.NonNull;
 import android.app.AlertDialog;
@@ -23,6 +25,16 @@ import android.app.Dialog;
 
 public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
+    private String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
+    public void pushStud(String st){
+        int len = StudentsListArray.length;
+        String[] NewList = new String[len + 1];
+        for (int i = 0; i < len-1; i++) {
+            NewList[i] = StudentsListArray[i];
+        }
+        NewList[len] = st;
+        StudentsListArray = NewList;
+    }
 
     private void setHeaderTextName(String str){
         TextView textView = (TextView) findViewById(R.id.textNumber_of_group);
@@ -46,8 +58,9 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
         AdditionalButton = (Button) findViewById(R.id.button_add_students);
         AdditionalButton.setOnClickListener(this);
 
-        String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
         Arrays.sort(StudentsListArray);
+//        String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
+//        Arrays.sort(StudentsListArray);
 
 
         // получаем элемент ListView

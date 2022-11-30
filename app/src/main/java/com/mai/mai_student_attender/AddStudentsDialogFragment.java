@@ -50,7 +50,11 @@ public class AddStudentsDialogFragment extends DialogFragment {
         final EditText input = new EditText(getActivity());
         builder.setView(input);
 
+        str = input.getText().toString();
 
+
+
+//        getActivity().getParent().getClass().getMethods();
 
         return builder
                 .setTitle("Добавление студента")

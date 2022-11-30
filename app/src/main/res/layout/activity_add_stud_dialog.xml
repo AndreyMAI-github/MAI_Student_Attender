@@ -20,11 +20,17 @@
             android:hint="Введите ФИО"
             android:text=""/>
 
-        <TextView
-            android:id="@+id/textView"
+        <Button
+            android:id="@+id/buttonaddstud"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Добавить" />
+
+        <Button
+            android:id="@+id/buttoncancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отмена" />
 
     </LinearLayout>
 
