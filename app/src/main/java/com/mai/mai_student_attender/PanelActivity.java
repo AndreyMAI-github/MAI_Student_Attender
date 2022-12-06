@@ -26,18 +26,13 @@ import com.mai.mai_student_attender.panel_elements.settings.SettingsFragment;
 
 public class PanelActivity extends AppCompatActivity {
 
-    /*private ActivityPanelBinding binding;*/
+    private ActivityPanelBinding binding;
 
     int currentState = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Logger.d("PanelActivity Created");
-
-        /*binding = ActivityPanelBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());*/
-
         setContentView(R.layout.activity_panel);
 
         BottomNavigationView navView = findViewById(R.id.nav_view);

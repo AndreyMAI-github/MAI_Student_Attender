@@ -49,33 +49,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topDisList">
 
-        <ScrollView
-            android:id="@+id/ScrollDisList"
+        <ListView
+            android:id="@+id/disciplineList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" />
 
-            <LinearLayout
-                android:id="@+id/LayoutDisList"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/bDisListPredm"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="+" />
-            </LinearLayout>
-        </ScrollView>
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/bottomDisList"
-        android:layout_width="412dp"
-        android:layout_height="98dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/middleDisList"></LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
