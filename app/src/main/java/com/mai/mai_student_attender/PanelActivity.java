@@ -35,8 +35,8 @@ public class PanelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Logger.d("PanelActivity Created");
 
-        binding = ActivityPanelBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        /*binding = ActivityPanelBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());*/
 
         setContentView(R.layout.activity_panel);
 
