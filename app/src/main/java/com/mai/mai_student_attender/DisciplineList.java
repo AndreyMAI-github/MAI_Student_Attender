@@ -41,3 +41,4 @@ public class DisciplineList extends AppCompatActivity {
 
     }
 }
+//отображается лист дисциплин
