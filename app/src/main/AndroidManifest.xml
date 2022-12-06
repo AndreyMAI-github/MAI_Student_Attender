@@ -40,14 +40,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DiciplineDayHandler"
+            android:name=".DisciplineDayHandler"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DiciplineEdit"
+            android:name=".DisciplineEdit"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
