@@ -12,12 +12,14 @@ import android.widget.TextView;
 
 import java.util.Vector;
 
-public class StudentAttend extends AppCompatActivity {
+import kotlin.contracts.Returns;
 
+public class StudentAttend extends AppCompatActivity {
     int lastIdAttend;
     ListView activity_student_attendListView;
     TextView topPanelText;
     String[] array_of_students = {"Student1", "Student2", "Student3"};
+    String[] output_array;
     Vector<String> formedStudList;
 
 
@@ -38,15 +40,23 @@ public class StudentAttend extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id)
             {
                 SparseBooleanArray selected=activity_student_attendListView.getCheckedItemPositions();
+                output_array= new String[activity_student_attendListView.getCheckedItemCount()];
 
-                String selectedItems="";
+                int pos = 0;
                 for(int i=0;i < array_of_students.length;i++)
                 {
-                    if(selected.get(i))
-                        selectedItems+=array_of_students[i]+",";
+                    if(selected.get(i)) {
+                        output_array[pos] += array_of_students[i];
+                        pos++;
+                    }
                 }
                 // установка текста элемента TextView
-                topPanelText.setText("Выбрано: " + selectedItems);
+                String myStr = "Выбрано: ";
+                for(int i = 0; i < output_array.length;i++)
+                {
+                    myStr += output_array[i] + " ";
+                }
+                topPanelText.setText(myStr);
             }
         });
 
@@ -60,6 +70,13 @@ public class StudentAttend extends AppCompatActivity {
         // устанавливаем для списка адаптер
         activity_student_attendListView.setAdapter(adapter);
 
+    }
+
+    private String[] getFlaggedStudents()
+    {
+
+
+        return null;
     }
 
     protected void addStudToForm(String stud)
