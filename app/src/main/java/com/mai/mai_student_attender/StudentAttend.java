@@ -39,22 +39,12 @@ public class StudentAttend extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View v, int position, long id)
             {
-                SparseBooleanArray selected=activity_student_attendListView.getCheckedItemPositions();
-                output_array= new String[activity_student_attendListView.getCheckedItemCount()];
-
-                int pos = 0;
-                for(int i=0;i < array_of_students.length;i++)
-                {
-                    if(selected.get(i)) {
-                        output_array[pos] += array_of_students[i];
-                        pos++;
-                    }
-                }
+                String[] tmp_array = getFlaggedStudents();
                 // установка текста элемента TextView
                 String myStr = "Выбрано: ";
-                for(int i = 0; i < output_array.length;i++)
+                for(int i = 0; i < tmp_array.length;i++)
                 {
-                    myStr += output_array[i] + " ";
+                    myStr += tmp_array[i] + " ";
                 }
                 topPanelText.setText(myStr);
             }
@@ -72,14 +62,24 @@ public class StudentAttend extends AppCompatActivity {
 
     }
 
-    private String[] getFlaggedStudents()
+    private String[] getFlaggedStudents() // Функция возвращает массив строк отмеченных студентов
     {
+        SparseBooleanArray selected=activity_student_attendListView.getCheckedItemPositions();
+        output_array= new String[activity_student_attendListView.getCheckedItemCount()];
 
+        int pos = 0;
+        for(int i=0;i < array_of_students.length;i++)
+        {
+            if(selected.get(i)) {
+                output_array[pos] = array_of_students[i];
+                pos++;
+            }
+        }
 
-        return null;
+        return output_array;
     }
 
-    protected void addStudToForm(String stud)
+    protected void addStudToDBForm(String stud) //
     {
 
     }
