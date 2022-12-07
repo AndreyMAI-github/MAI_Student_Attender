@@ -25,7 +25,6 @@ import android.app.Dialog;
 
 
 public class GroupEditor extends AppCompatActivity implements OnInputListener {
-//public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
     private String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
 
