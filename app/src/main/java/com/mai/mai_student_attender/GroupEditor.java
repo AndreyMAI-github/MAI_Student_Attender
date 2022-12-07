@@ -2,6 +2,9 @@ package com.mai.mai_student_attender;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import static com.mai.mai_student_attender.AddStudentsDialogFragment.*;
+
+import android.app.DialogFragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -12,18 +15,17 @@ import android.view.View.OnClickListener;
 import android.content.Intent;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.fragment.app.DialogFragment;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import androidx.annotation.NonNull;
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 
 
-
-
-public class GroupEditor extends AppCompatActivity implements OnClickListener {
+public class GroupEditor extends AppCompatActivity implements OnInputListener {
+//public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
     private String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
     public void pushStud(String st){
@@ -46,6 +48,10 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
     Button BackButton;
     Button AdditionalButton;
 
+    public String mInput;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,10 +61,10 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
 
         BackButton = (Button) findViewById(R.id.button_back_to_groups);
-        BackButton.setOnClickListener(this);
+//        BackButton.setOnClickListener(this);
 
         AdditionalButton = (Button) findViewById(R.id.button_add_students);
-        AdditionalButton.setOnClickListener(this);
+//        AdditionalButton.setOnClickListener(this);
 
         Arrays.sort(StudentsListArray);
 //        String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
@@ -74,9 +80,29 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
         // устанавливаем для списка адаптер
         list_of_students.setAdapter(adapter);
+
+        BackButton.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getBaseContext(), GroupList.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+        AdditionalButton.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Log.v("btn","Pressed AddStud btn");
+                        //Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
+                        showDialog();
+                    }
+                }
+        );
     }
 
-    public void showDialog(View v) {
+    public void showDialog() {
         AddStudentsDialogFragment dialog = new AddStudentsDialogFragment();
         Bundle args = new Bundle();
         dialog.setArguments(args);
@@ -86,19 +112,26 @@ public class GroupEditor extends AppCompatActivity implements OnClickListener {
     }
 
     // реализация метода onClick
+//    @Override
+//    public void onClick(View v) {
+//        switch (v.getId()) {
+//            case R.id.button_back_to_groups:
+//                Intent intent = new Intent(this, GroupList.class);
+//                startActivity(intent);
+//                break;
+//            case R.id.button_add_students:
+//                Log.v("btn","Pressed AddStud btn");
+//                //Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
+//                showDialog(v);
+//                break;
+//        }
+//    }
+
     @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.button_back_to_groups:
-                Intent intent = new Intent(this, GroupList.class);
-                startActivity(intent);
-                break;
-            case R.id.button_add_students:
-                Log.v("btn","Pressed AddStud btn");
-                //Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
-                showDialog(v);
-                break;
-        }
+    public void sendInput(String input) {
+        mInput = input;
+        pushStud(mInput);
+        Toast.makeText(getBaseContext(), mInput, Toast.LENGTH_LONG).show();
     }
 }
 
