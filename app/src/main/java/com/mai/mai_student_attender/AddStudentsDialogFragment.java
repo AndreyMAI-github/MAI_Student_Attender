@@ -128,7 +128,7 @@ public class AddStudentsDialogFragment extends DialogFragment {
     public OnInputListener mOnInputListener;
 
     private EditText mInput;
-    private TextView mActionOk, mActionCancel;
+    private Button mActionOk, mActionCancel;
 
     @Override
     public View onCreateView(LayoutInflater inflater,
