@@ -28,6 +28,11 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
 //public class GroupEditor extends AppCompatActivity implements OnClickListener {
 
     private String[] StudentsListArray = {"Бойко Виктория", "Астапов Владимир"};
+
+    // создаем адаптер
+    ArrayAdapter<String> adapter; // = new ArrayAdapter(this,
+//            android.R.layout.simple_list_item_1, StudentsListArray);
+
     public void pushStud(String st){
         int len = StudentsListArray.length;
         String[] NewList = new String[len + 1];
@@ -50,7 +55,25 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
     public String mInput;
 
+//    private void addS(){
+//        // получаем элемент ListView
+//        ListView list_of_students = findViewById(R.id.StudentsList);
+//
+//        // создаем адаптер
+//        ArrayAdapter<String> adapter = new ArrayAdapter(this,
+//                android.R.layout.simple_list_item_1, StudentsListArray);
+//
+//        // устанавливаем для списка адаптер
+//        list_of_students.setAdapter(adapter);
+//    }
 
+//    public void add(){
+//        String user = mInput;
+//        if(!user.isEmpty()){
+//            adapter.add(user);
+//            adapter.notifyDataSetChanged();
+//        }
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,12 +97,14 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
         // получаем элемент ListView
         ListView list_of_students = findViewById(R.id.StudentsList);
 
-        // создаем адаптер
-        ArrayAdapter<String> adapter = new ArrayAdapter(this,
+//        // создаем адаптер ArrayAdapter<String>
+        adapter = new ArrayAdapter(this,
                 android.R.layout.simple_list_item_1, StudentsListArray);
 
         // устанавливаем для списка адаптер
         list_of_students.setAdapter(adapter);
+
+
 
         BackButton.setOnClickListener(
                 new OnClickListener() {
@@ -131,7 +156,9 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
     public void sendInput(String input) {
         mInput = input;
         pushStud(mInput);
-        Toast.makeText(getBaseContext(), mInput, Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(), "Hello, " + mInput, Toast.LENGTH_LONG).show();
+
+//        add();
     }
 }
 
