@@ -84,12 +84,13 @@ public class StudentAttend extends AppCompatActivity {
 
     }
 
-    protected int findElemPosition(String elem)
+    protected int findElemPosition(String elem) // возвращает индекс студента по списку
     {
+        int position = -1;
         for(int i =0; i < formedStudList.size(); i++)
         {
 
         }
-        return -1;
+        return position;
     }
 }
