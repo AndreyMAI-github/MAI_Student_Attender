@@ -55,26 +55,6 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
     public String mInput;
 
-//    private void addS(){
-//        // получаем элемент ListView
-//        ListView list_of_students = findViewById(R.id.StudentsList);
-//
-//        // создаем адаптер
-//        ArrayAdapter<String> adapter = new ArrayAdapter(this,
-//                android.R.layout.simple_list_item_1, StudentsListArray);
-//
-//        // устанавливаем для списка адаптер
-//        list_of_students.setAdapter(adapter);
-//    }
-
-//    public void add(){
-//        String user = mInput;
-//        if(!user.isEmpty()){
-//            adapter.add(user);
-//            adapter.notifyDataSetChanged();
-//        }
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -135,22 +115,6 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
         dialog.show(getSupportFragmentManager(), "AddStudents");
 //        str = dialog.getArguments().getString(StData);
     }
-
-    // реализация метода onClick
-//    @Override
-//    public void onClick(View v) {
-//        switch (v.getId()) {
-//            case R.id.button_back_to_groups:
-//                Intent intent = new Intent(this, GroupList.class);
-//                startActivity(intent);
-//                break;
-//            case R.id.button_add_students:
-//                Log.v("btn","Pressed AddStud btn");
-//                //Toast.makeText(getApplicationContext(), "Btn pressed", Toast.LENGTH_LONG).show();
-//                showDialog(v);
-//                break;
-//        }
-//    }
 
     @Override
     public void sendInput(String input) {
