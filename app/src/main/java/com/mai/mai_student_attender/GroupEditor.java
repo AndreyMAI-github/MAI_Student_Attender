@@ -154,11 +154,9 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
     @Override
     public void sendInput(String input) {
-        mInput = input;
-        pushStud(mInput);
-        Toast.makeText(getBaseContext(), "Hello, " + mInput, Toast.LENGTH_LONG).show();
-
-//        add();
+//        pushStud(input);
+        Toast.makeText(getBaseContext(), "Hello, " + input, Toast.LENGTH_LONG).show();
+        adapter.add(input);
+        adapter.notifyDataSetChanged();
     }
 }
-
