@@ -26,12 +26,6 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
     private List<String> StudentsListArray = new ArrayList<String>();   // создаем список студентов
     private ArrayAdapter<String> adapter;   // создаем адаптер
 
-    private void setStarterPack() {
-        StudentsListArray.add("Бойко Виктория");
-        StudentsListArray.add("Астапов Владимир");
-        StudentsListArray.add("Петров Игнат");
-        StudentsListArray.sort(String::compareTo);
-    }
 
     private void setHeaderTextName(String str){
         TextView textView = (TextView) findViewById(R.id.textNumber_of_group);
@@ -43,10 +37,9 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
         super.onCreate(savedInstanceState);
         Logger.d("GroupEditor Created");
         setContentView(R.layout.activity_group_editor);
-        setStarterPack();
 
-        // определяем кнопку BackButton
-        // присваеваем ей активити в качестве обработчика
+        // определяем кнопки
+        // присваеваем им элементы активити
         Button BackButton = (Button) findViewById(R.id.button_back_to_groups);
         Button AdditionalButton = (Button) findViewById(R.id.button_add_students);
 
@@ -59,6 +52,7 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
         // устанавливаем для списка адаптер
         list_of_students.setAdapter(adapter);
+
         registerForContextMenu(list_of_students);
 
         BackButton.setOnClickListener(
@@ -107,7 +101,6 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
             AdapterView.AdapterContextMenuInfo contMenu = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
             // удаляем объект, используя позицию пункта в списке
             StudentsListArray.remove(contMenu.position);
-            StudentsListArray.sort(String::compareTo);
             // уведомляем, что данные изменились
             adapter.notifyDataSetChanged();
             return true;
