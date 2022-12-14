@@ -3,7 +3,6 @@ package com.mai.mai_student_attender;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mai.mai_student_attender.AddStudentsDialogFragment.*;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +19,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.mai.mai_student_attender.AddStudentsDialogFragment.OnInputListener;
+
 
 public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
