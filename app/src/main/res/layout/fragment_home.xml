@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/Home_nav"
@@ -30,69 +31,30 @@ tools:context=".panel_elements.home.HomeFragment">
         android:layout_weight="1"
         android:text="TextView" />
 
-    <Button
+
+    <ImageButton
         android:id="@+id/bActMainCalendar"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Button" />
+        android:src="@drawable/icon_calendar" />
 </LinearLayout>
 
-<LinearLayout
-    android:id="@+id/middle"
-    android:layout_width="match_parent"
-    android:layout_height="376dp"
-    android:orientation="vertical"
-    app:layout_constraintBottom_toTopOf="@+id/bottom"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/top">
+    <LinearLayout
+        android:id="@+id/middleHome"
+        android:layout_width="412dp"
+        android:layout_height="560dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top">
 
-    <Button
-        android:id="@+id/button26"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-</LinearLayout>
+        <ListView
+            android:id="@+id/homeList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-<LinearLayout
-    android:id="@+id/bottom"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:orientation="horizontal"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent">
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/bMainActHome"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="1" />
-
-    <Button
-        android:id="@+id/bActMainGroups"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="2" />
-
-    <Button
-        android:id="@+id/bActMainDiscipline"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="3" />
-
-    <Button
-        android:id="@+id/bActMainOther"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="4" />
-
-</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
