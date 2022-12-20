@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.mai.mai_student_attender.R;
 import com.mai.mai_student_attender.databinding.FragmentGroupsBinding;
 
 public class GroupsFragment extends Fragment {
@@ -18,20 +19,8 @@ public class GroupsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GroupsViewModel dashboardViewModel =
-                new ViewModelProvider(this).get(GroupsViewModel.class);
+        return
+                inflater.inflate(R.layout.fragment_groups,null);
 
-        binding = FragmentGroupsBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        final TextView textView = binding.textGroups;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
     }
 }
