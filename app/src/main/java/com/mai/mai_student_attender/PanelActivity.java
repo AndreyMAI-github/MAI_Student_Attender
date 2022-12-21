@@ -33,11 +33,14 @@ public class PanelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<<<< Temporary merge branch 1
         Logger.d("PanelActivity Created");
 
         binding = ActivityPanelBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+=========
+>>>>>>>>> Temporary merge branch 2
         setContentView(R.layout.activity_panel);
 
         BottomNavigationView navView = findViewById(R.id.nav_view);

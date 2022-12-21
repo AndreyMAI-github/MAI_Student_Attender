@@ -18,6 +18,14 @@ public class DisciplineList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<<<< Temporary merge branch 1
+
+        Logger.d("DisciplineList Created");
+
+//        setContentView(R.layout.activity_discipline_list);
+        setContentView(R.layout.fragment_discipline);
+
+=========
         Logger.d("OnCreate");
 
         setContentView(R.layout.fragment_discipline);
@@ -39,5 +47,6 @@ public class DisciplineList extends AppCompatActivity {
         // устанавливаем для списка адаптер
         fragment_disciplineListView.setAdapter(adapter);
 
+>>>>>>>>> Temporary merge branch 2
     }
 }
