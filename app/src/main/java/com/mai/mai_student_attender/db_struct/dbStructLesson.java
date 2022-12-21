@@ -5,7 +5,7 @@ import java.sql.Time;
 
 enum WorkType{
     LECTURE,
-    PRACTISE,
+    PRACTICE,
     LAB,
 }
 
