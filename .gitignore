@@ -4,3 +4,6 @@
 /app/local.properties
 /.gradle/
 /.idea/
+/gradle/
+gradlew
+gradlew.bat

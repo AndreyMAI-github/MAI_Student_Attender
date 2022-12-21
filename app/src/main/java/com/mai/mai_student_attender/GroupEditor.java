@@ -3,7 +3,6 @@ package com.mai.mai_student_attender;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mai.mai_student_attender.AddStudentsDialogFragment.*;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +19,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.mai.mai_student_attender.AddStudentsDialogFragment.OnInputListener;
+
 
 public class GroupEditor extends AppCompatActivity implements OnInputListener {
 
@@ -31,6 +32,13 @@ public class GroupEditor extends AppCompatActivity implements OnInputListener {
         TextView textView = (TextView) findViewById(R.id.textNumber_of_group);
         textView.setText(str);
     }
+
+    // определяем кнопку BackButton
+    // присваеваем ей активити в качестве обработчика
+    Button BackButton;
+    Button AdditionalButton;
+
+    public String mInput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

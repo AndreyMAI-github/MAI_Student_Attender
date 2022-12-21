@@ -7,10 +7,10 @@ public class dbStructAttend {
     private boolean flag;
 
     public  dbStructAttend(int idA, int idS, int idL, boolean f) {
-        idAttend = idA;
-        idStudent = idS;
-        idLesson = idL;
-        flag = f;
+        idAttend = idA; //это надо
+        idStudent = idS; //это
+        idLesson = idL; //это
+        flag = f; //это мне делать не надо
     }
 
     public int getIdAttend(){return idAttend;}
