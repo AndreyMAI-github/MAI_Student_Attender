@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.Toast;
+
+import com.mai.mai_student_attender.panel_elements.UnitAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +32,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnCalendar = findViewById(R.id.bActMainCalendar);
         btnCalendar.setOnClickListener(btnHandler);
+
+        ListView home_list = (ListView) findViewById(R.id.home_list);
+
+        Unit[] units = {
+                new Unit("а", "10", "1"), //добавить фото
+                new Unit("б", "11", "2"),
+                new Unit("в", "12", "2"),
+                new Unit("г", "13", "1")
+        };
+
+        UnitAdapter unitAdapter = new UnitAdapter(this, units);
+        home_list.setAdapter(unitAdapter);
+
+
     }
 
     @Override
