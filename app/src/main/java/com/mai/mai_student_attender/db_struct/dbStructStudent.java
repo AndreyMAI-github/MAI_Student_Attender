@@ -65,6 +65,16 @@ public class dbStructStudent extends dbHomeStruct {
         getWritableDatabase().insertOrThrow("Students",
                 null, cv);
     }
+    public Cursor getByGroup(String gr) {
+        Cursor qqq = getReadableDatabase().query("Student",
+                new String[]{"idSt", "NameSt"},
+                "GroupSt",
+                new String[]{gr}, null, null, null);
+        return qqq;
+//        SELECT "idSt", "NameSt"
+//        FROM "Student"
+//        WHERE "GroupSt"="М4О-306Б-20";
+    }
 
     public void delStudent(int idS) {
         getWritableDatabase().delete("Student",
