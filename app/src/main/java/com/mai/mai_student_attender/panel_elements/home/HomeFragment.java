@@ -1,9 +1,8 @@
 package com.mai.mai_student_attender.panel_elements.home;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,23 +10,26 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.mai.mai_student_attender.Logger;
 import com.mai.mai_student_attender.R;
 import com.mai.mai_student_attender.databinding.FragmentDisciplineBinding;
 
 public class HomeFragment extends Fragment {
-    // Сначала добавление функциональных кнопок-дисциплин
-    // Создание отдельного окна для этого действия, в котором будет вводится название дисциплин,
-    // Которые будут преобразовываться в кнопки-дисциплины, с последующим переходом в DisciplineEdit
 
-    String[] disciplineList = {"OOP", "PMU"};
+    Unit[] units = {
+            new Unit("ооп", "10:00", "лк"), //добавить фото
+            new Unit("пму", "11:00", "пз"),
+            new Unit("схемотехника", "12:00", "лк"),
+            new Unit("радиоавтоматика", "13:00", "пз1")
+    };
+
 
     ListView fragment_homeListView;
     private FragmentDisciplineBinding binding;
 
-    @Override
+    @SuppressLint("MissingInflatedId")
+    @Override //
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
@@ -35,55 +37,25 @@ public class HomeFragment extends Fragment {
                 container, false);
 
 
-
         // получаем элемент ListView
         fragment_homeListView = view.findViewById(R.id.homeList);
         Logger.d("Before return");
 
-        setHomeList(disciplineList);
+        setHomeList(units);
 
         return view;
 
 
     }
 
-    protected void setHomeList(String[] discipline) {
+    protected void setHomeList(Unit[] discipline) {
         // создаем адаптер
         Logger.d("Adapter");
         if(discipline!= null) {
-            ArrayAdapter adapter = new ArrayAdapter(this.getContext(), android.R.layout.simple_list_item_1, discipline);
-            // устанавливаем для списка адаптер                                     simple_list_item_1
+            UnitAdapter unitAdapter = new UnitAdapter(this.getContext(), units);
             Logger.d("Nuller");
-            fragment_homeListView.setAdapter(adapter);
+            fragment_homeListView.setAdapter(unitAdapter);
             Logger.d("Set Adapter");
         }
     }
 }
-
-
-
-//import android.os.Bundle;
-//import android.view.LayoutInflater;
-//import android.view.View;
-//import android.view.ViewGroup;
-//import android.widget.TextView;
-
-//import androidx.annotation.NonNull;
-//import androidx.fragment.app.Fragment;
-//import androidx.lifecycle.ViewModelProvider;
-
-//import com.mai.mai_student_attender.R;
-//import com.mai.mai_student_attender.databinding.FragmentHomeBinding;
-
-//public class HomeFragment extends Fragment {
-
-    //private FragmentHomeBinding binding;
-
-    //public View onCreateView(@NonNull LayoutInflater inflater,
-      //                       ViewGroup container, Bundle savedInstanceState) {
-       // return
-        //inflater.inflate(R.layout.fragment_home,null);
-
-    //}
-
-//}
