@@ -1,59 +1,74 @@
 package com.mai.mai_student_attender.panel_elements.discipline;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.mai.mai_student_attender.Logger;
+import android.widget.Toast;
+import android.content.Intent;
+import android.widget.AdapterView;
+
 import com.mai.mai_student_attender.R;
+import com.mai.mai_student_attender.Logger;
+import com.mai.mai_student_attender.DisciplineEdit;
 import com.mai.mai_student_attender.databinding.FragmentDisciplineBinding;
 
 public class DisciplineFragment extends Fragment {
-    // Сначала добавление функциональных кнопок-дисциплин
-    // Создание отдельного окна для этого действия, в котором будет вводится название дисциплин,
-    // Которые будут преобразовываться в кнопки-дисциплины, с последующим переходом в DisciplineEdit
+    //сделать переход в DisciplineEdit
 
-    String[] disciplineList = {"OOP", "PMU"};
+    EnterDiscip[] dusts = {
+            new EnterDiscip("OOP"), //добавить фото
+            new EnterDiscip("PMU")
+    };
 
     ListView fragment_disciplineListView;
     private FragmentDisciplineBinding binding;
 
-    @Override
+    @SuppressLint("MissingInflatedId")
+    @Override //
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_discipline,
                 container, false);
 
 
-
-         // получаем элемент ListView
+        // получаем элемент ListView
         fragment_disciplineListView = view.findViewById(R.id.disciplineList);
         Logger.d("Before return");
 
-        setDisciplineList(disciplineList);
+        setDisciplineList(dusts);
+
+        fragment_disciplineListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View fragment_homeListView, int pos, long id) {
+                String selectedItem = dusts[pos].getDiscipline();
+                Intent intent = new Intent(getContext(), DisciplineEdit.class);
+                intent.putExtra("name", selectedItem);
+                startActivity(new Intent(getContext(), DisciplineEdit.class));
+                startActivity(intent);
+            }
+        });
 
         return view;
 
     }
 
-    protected void setDisciplineList(String[] discipline) {
+    protected void setDisciplineList(EnterDiscip[] discipline) {
         // создаем адаптер
         Logger.d("Adapter");
-        if(discipline!= null) {
-            ArrayAdapter adapter = new ArrayAdapter(this.getContext(), android.R.layout.simple_list_item_1, discipline);
+        if (discipline != null) {
+            EnterDiscipAda dustAdapter = new EnterDiscipAda(this.getContext(), dusts);
             // устанавливаем для списка адаптер
             Logger.d("Nuller");
-            fragment_disciplineListView.setAdapter(adapter);
+            fragment_disciplineListView.setAdapter(dustAdapter);
             Logger.d("Set Adapter");
         }
+
     }
 }
