@@ -68,7 +68,7 @@ public class StudentAttend extends AppCompatActivity {
         Vihod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), HomeFragment.class);
+                Intent intent = new Intent(getApplicationContext(), PanelActivity.class);
                 startActivity(intent);
             }
         });
