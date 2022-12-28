@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -24,6 +25,8 @@ public class UnitAdapter extends ArrayAdapter<Unit> {
         this.units = units;
     }
 
+
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -41,6 +44,7 @@ public class UnitAdapter extends ArrayAdapter<Unit> {
 
         TextView type = (TextView) view.findViewById(R.id.type);
         type.setText(this.units[position].getType());
+
 
 
         return view;
