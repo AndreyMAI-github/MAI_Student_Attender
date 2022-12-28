@@ -32,13 +32,13 @@
             android:textAlignment="center"
             android:textSize="20sp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/bHomeCalendar"
             android:layout_width="88dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="календарик Мити и Вики"
-            android:textSize="7sp" />
+            app:srcCompat="@drawable/icon_calendar"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -53,7 +53,7 @@
         <ListView
             android:id="@+id/homeList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 

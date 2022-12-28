@@ -2,13 +2,19 @@ package com.mai.mai_student_attender;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.SparseBooleanArray;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.mai.mai_student_attender.panel_elements.home.HomeFragment;
 
 import java.util.Vector;
 
@@ -21,6 +27,8 @@ public class StudentAttend extends AppCompatActivity {
     String[] array_of_students = {"Student1", "Student2", "Student3"};
     String[] output_array;
     Vector<String> formedStudList;
+    ImageButton Vihod;
+
 
 
     @Override
@@ -32,6 +40,12 @@ public class StudentAttend extends AppCompatActivity {
 
         activity_student_attendListView = findViewById(R.id.student_attend); // получаем элемент ListView
         topPanelText = findViewById(R.id.Nomer_groopi);
+        Bundle arguments = getIntent().getExtras();
+
+        if(arguments!=null){
+            String name = arguments.get("name").toString();
+            topPanelText.setText(name);
+        }
 
         setStudentList(array_of_students);
         //
@@ -46,10 +60,18 @@ public class StudentAttend extends AppCompatActivity {
                 {
                     myStr += tmp_array[i] + " ";
                 }
-                topPanelText.setText(myStr);
+                Toast.makeText(v.getContext(),myStr,Toast.LENGTH_SHORT).show();
             }
         });
 
+        Vihod = findViewById(R.id.Vihod);
+        Vihod.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HomeFragment.class);
+                startActivity(intent);
+            }
+        });
     }
 
     protected void setStudentList(String[] array_of_students)
@@ -79,17 +101,24 @@ public class StudentAttend extends AppCompatActivity {
         return output_array;
     }
 
-    protected void addStudToDBForm(String stud) //
+
+    protected void addStudToDBForm(String stud) //пока оставить, т.к. нет базы данных
     {
 
     }
 
-    protected int findElemPosition(String elem) // возвращает индекс студента по списку
+
+
+    //необходимо сделать индекс каждому студенту и найти способ нахождения индекса отмеченного студента
+    // принести на проверку
+    protected int findElemPosition(String elem) // прилетает строка и необходимо дать на выход индекс студента
     {
         int position = -1;
-        for(int i =0; i < formedStudList.size(); i++)
+        for(int i=0; i < array_of_students.length ;i++) //мне прилетел студент, сейчас я буду искать его имя в массиве студентов
         {
-
+            if (array_of_students[i].equals(elem)) {
+                position = i;
+            }
         }
         return position;
     }

@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Журнал МАИ</string>
     <string name="title_activity_group_attend">GroupAttendActivity</string>
     <!-- Strings used for fragments for navigation -->
